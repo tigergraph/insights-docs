@@ -1,0 +1,7 @@
+name: insights
+title: TigerGraph Insights
+version: main
+display_version: default
+start_page: start:overview.adoc
+
+nav:
