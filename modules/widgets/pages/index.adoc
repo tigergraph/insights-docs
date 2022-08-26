@@ -10,7 +10,7 @@ This page explains the types of widgets available to you with Insights and best 
 
 == Create a Widget
 
-Each page can have up to 20 widgets. Click on the btn:[+] icon in the lower left corner of the page view to choose a new type of widget to add.
+Each application page can have up to 20 widgets. Click on the btn:[+] icon in the lower left corner of the page view to choose a new type of widget to add.
 
 After creation, you can move and resize the widget appearance on your page.
 
@@ -24,36 +24,45 @@ Different data types lend themselves to different visualization formats (see Typ
 
 === xref:graph-widget.adoc[]
 
+Shows graph data as a connected network of vertices and edges that can be rearranged into any shape.
 Accepts data as vertices and edges.
 
 === xref:map-widget.adoc[]
 
+Overlays graph data on a map.
 Accepts data as vertices and edges as long as each one has a numeric attribute to be interpreted as latitude and longitude.
 
 === Table Widget
 
+Displays vertices as a relational table, similar to a spreadsheet.
 Supports any input data format.
 
 === Single Value
 
-Displays the first attribute of the first vertex or edge in the graph result.
+Displays the first attribute of the first vertex or edge in a query result.
+Ideal for displaying total counts or other summary values from a query.
 
 === Line Chart
 
+Displays a standard line chart.
 Accepts data as vertices and edges or a list of objects that contain at least one numeric attribute.
 
 === Bar Chart
 
+Displays a standard bar chart.
 Accepts data as vertices and edges or a list of objects that contain at least one numeric attribute.
 
 === Pie Chart
 
+Displays a standard pie chart.
 Accepts data as vertices and edges or a list of objects that contain at least one numeric attribute.
 
 === Sankey Chart
 
+Displays a Sankey chart, ideal for displaying flow from one set of values to another.
 Accepts data as vertices and edges.
 
 === Inputs
 
+An interactive widget that takes user input and uses it to run queries.
 Supports any input data format.

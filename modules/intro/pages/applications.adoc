@@ -21,6 +21,14 @@ Try creating a new graph using xref:gui:graphstudio:overview.adoc[GraphStudio] f
 
 Your new application will appear on the Insights main page under My Applications. If other users on the same TigerGraph instance have created their own applications, they will be listed under "Other Applications."
 
+=== Preview an application
+
+Preview mode is designed to show off the use of your application in a presentation.
+In preview mode, the UI is minimized and all pages and widgets are locked with no changes possible.
+
+Save the application and press the play button to enter preview mode.
+The preview button is inactive (greyed out) until the application is saved.
+
 === Modify an application
 
 You can edit, duplicate, and delete applications from the same main page by clicking the three-dot menu.

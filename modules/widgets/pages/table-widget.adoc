@@ -1,0 +1,6 @@
+= Table Widget
+:experimental:
+
+The Table widget displays vertices in the format of a relational table, similar to a spreadsheet.
+
+

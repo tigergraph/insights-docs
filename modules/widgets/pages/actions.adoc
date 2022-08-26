@@ -4,4 +4,5 @@
 Actions are available on some widget types.
 They allow you to create customized links to either external resources or to refresh the widget display with different parameters.
 
+
 Find the Create Action button on the widget edit menu.

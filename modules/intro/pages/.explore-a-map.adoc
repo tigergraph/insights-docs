@@ -1,0 +1,55 @@
+= Example: Mapping Financial Transactions
+:experimental:
+
+In this sample walkthrough, we explore the process of visualizing graph queries on location-enabled data using a map.
+No previous experience with TigerGraph is required, but some knowledge of graph data in general is helpful.
+
+We will use a sample dataset available as a starter kit on TigerGraph Cloud called Fraud and Money Laundering.
+This starter kit includes data for thousands of hypothetical people (represented as Person vertices) who perform money transfers using banks.
+
+== Application setup
+
+First set up the Fraud and Money Laundering Detection starter kit.
+Create a sample cluster on TigerGraph Cloud, then use GraphStudio to load the data.
+
+=== Create a TigerGraph Cloud cluster with a starter kit
+
+. Under "Clusters" in TigerGraph Cloud, click btn:[Create cluster].
+. Select the Fraud and Money Laundering Detection starter kit.
+. Choose the region closest to your location.
+. Keep all defaults the same to provision a free-tier cluster.
+. Confirm your choice.
+. Wait for the cluster to finish provisioning.
+
+=== Load data in GraphStudio
+
+A TigerGraph cluster supports multiple graphs and multiple data sources.
+Each graph has a "schema," which provides instructions about what type of information is in the graph and where loaded data should go.
+
+In this example, the schema includes Person vertices, which have "name", "address", "ZIP code" and other attributes, and it also includes Payment vertices, which have "amount" attributes.
+The data is a list of all the people and transactions the graph should represent, as well as all of the other data types and other attributes too numerous to list here.
+
+Although you have created your cluster, which includes the sample data and schema, the data is not automatically loaded for you.
+This step happens in GraphStudio.
+
+. In the "Applications" menu next to the finished cluster, choose GraphStudio.
+. In the left sidebar, click on "Global View" and select "AntiFraud" to activate the AntiFraud graph.
+. Go to the Load Data tab and wait a moment for the system to display the schema and data files.
+. Press the play button in the upper left of the window to load the data to the graph.
+
+=== Create your application
+
+A single application supports up to 20 widgets. In this tutorial, we will create just one, a map.
+
+. Use the nine-dot menu in the upper right of your browser window to go to TigerGraph Insights.
+. Click btn:[+ New Application].
+. Name your application something like "AntiFraud" and choose an icon. Remember, your application is not limited to only a map, so you can choose a more general name.
+. In the drop-down menu, select your graph, "AntiFraud".
+. Click the btn:[New Page] button and choose a name and icon for your page.
+. Click the btn:[+] icon in the lower left corner of the window to create a new widget on the page.
+. Select btn:[Map].
+
+== Create queries to explore your data
+
+
+

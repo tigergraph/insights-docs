@@ -9,6 +9,12 @@ Non-technical users can quickly and easily obtain meaningful visual insights tha
 * Ability to explore graph data through xref:widgets:index.adoc[], including graphs, maps, tables, charts, and more
 * Responsive and interactive demos for displaying graph information to a general audience
 
+== Quick Start
+
+Launch TigerGraph Insights from the nine-dot family of apps button image:nine-dot-button.png[] in the GUI of any cloud or local TigerGraph instance.
+
+From there, you can create xref:applications.adoc[] that display xref:widgets:index.adoc[] for users to interact with.
+
 == Supported Browsers
 
 As of September 2022, Insights is certified on the following browsers:

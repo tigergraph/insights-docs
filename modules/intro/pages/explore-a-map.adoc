@@ -1,4 +1,0 @@
-= Example: Explore a Map
-
-In this sample walkthrough, we explore the process of visualizing graph queries on location-enabled data using a map.
-
