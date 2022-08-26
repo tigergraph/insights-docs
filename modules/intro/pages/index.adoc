@@ -1,0 +1,36 @@
+= Overview
+
+TigerGraph Insights is a no-code visual graph analyzer that makes building data analytics dashboards intuitive.
+Non-technical users can quickly and easily obtain meaningful visual insights that would remain hidden without a deep graph-enabled analysis of their connected data.
+
+== Features
+
+* Intuitive visual query builder
+* Ability to explore graph data through xref:widgets:index.adoc[], including graphs, maps, tables, charts, and more
+* Responsive and interactive demos for displaying graph information to a general audience
+
+== Supported Browsers
+
+As of September 2022, Insights is certified on the following browsers:
+
+|===
+|Chrome |Safari |Firefox |Edge
+
+|Version 103.0.5060.53 (Official Build) (arm64)
+|Version 15.2 (17612.3.6.1.6)
+|Version 103.0.2
+|Version 104.0.1293.54 (Official build) (arm64)
+|===
+
+
+Not all features are guaranteed to work on other browsers.
+Please make sure to enable JavaScript and cookies in your browser settings.
+
+
+== Limitations
+
+* Concurrent editing on the same application is not supported, if two users are editing the same application at the same time, the second editor might potentially lose his/her work.
+* Input names can be duplicated, the last changed value of the same named inputs will be used as the parameter value.
+* Accumulators are not currently supported
+* Only the creator can edit the application, all other users can view the application
+* Widget in iframe sharing mode requires manual login

@@ -1,0 +1,30 @@
+= Graph Widget
+:experimental:
+
+The Graph widget is very similar to the graph visualizer tool in GraphStudio.
+It allows you to display the relationships between vertices in a single widget based on a specified query.
+
+== Graph widget window
+
+image::graph-window-controls.png[]
+
+The tools on the left menu (labeled "1" in the diagram) allow you to examine a single vertex or edge in detail.
+With the vertex or edge selected, these buttons have the following functions, from top to bottom:
+
+* Show detailed information about the attributes of the currently selected node/edge.
+* Filter graph by nodes/vertices.
+* Show graph nodes/edges information in tabular format.
+Click on any node or edge and the viewport will center on it.
+* Save the current graph view as an image. It is saved in the default Downloads directory as per your browser settings.
+
+The tools on the bottom right (labeled "2" in the diagram) have the following functions from left to right:
+
+* Zoom in
+* Zoom out
+* Fit graph to view
+* Change graph layout
+
+image::expand-vertices.png[]
+
+To save display space, some vertices have a small red number next to them.
+Double-click to expand them and reveal the full set of vertices.

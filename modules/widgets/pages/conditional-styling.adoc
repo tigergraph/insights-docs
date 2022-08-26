@@ -1,0 +1,6 @@
+= Conditional Styling
+
+Several widgets support conditional styling, similar to conditional formatting in Excel.
+
+This page is a reference for what features of each widget accept conditional styling, as well as some examples of practical applications.
+

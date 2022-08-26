@@ -1,0 +1,59 @@
+= Widgets
+:experimental:
+
+In TigerGraph Insights, widgets populate pages to provide easy-to-use graph visualizations for your data.
+
+Widgets work similarly to query visualizers. 
+After creating a widget, you create a query for it to display on your page and for users to interact with.
+
+This page explains the types of widgets available to you with Insights and best practices for the use of each one.
+
+== Create a Widget
+
+Each page can have up to 20 widgets. Click on the btn:[+] icon in the lower left corner of the page view to choose a new type of widget to add.
+
+After creation, you can move and resize the widget appearance on your page.
+
+== Create and save a query
+
+As you create a widget, you will be prompted to enter a query for it to visualize.
+Different data types lend themselves to different visualization formats (see Types of Widgets for more information).
+
+
+== Types of widgets
+
+=== xref:graph-widget.adoc[]
+
+Accepts data as vertices and edges.
+
+=== xref:map-widget.adoc[]
+
+Accepts data as vertices and edges as long as each one has a numeric attribute to be interpreted as latitude and longitude.
+
+=== Table Widget
+
+Supports any input data format.
+
+=== Single Value
+
+Displays the first attribute of the first vertex or edge in the graph result.
+
+=== Line Chart
+
+Accepts data as vertices and edges or a list of objects that contain at least one numeric attribute.
+
+=== Bar Chart
+
+Accepts data as vertices and edges or a list of objects that contain at least one numeric attribute.
+
+=== Pie Chart
+
+Accepts data as vertices and edges or a list of objects that contain at least one numeric attribute.
+
+=== Sankey Chart
+
+Accepts data as vertices and edges.
+
+=== Inputs
+
+Supports any input data format.

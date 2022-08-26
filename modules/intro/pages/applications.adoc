@@ -1,0 +1,39 @@
+= Applications
+:experimental:
+
+Applications are the backbone of TigerGraph Insights. Each application has pages, which themselves have widgets that display information from a TigerGraph instance.
+
+== Create an application
+
+You can create a maximum of 150 applications per TigerGraph instance.
+
+On the main TigerGraph Insights page, click btn:[+ New Application].
+
+image::new-application-button.png[]
+
+In the next window, choose a name, icon, and default graph to pull data from.
+All of these options can be changed later as well.
+
+image::new-application.png[]
+
+If you don't see any graphs in the dropdown list, either there are no graphs on your instance or you do not have permissions to view any graphs.
+Try creating a new graph using xref:gui:graphstudio:overview.adoc[GraphStudio] first, or contact an administrator to grant you the correct permissions.
+
+Your new application will appear on the Insights main page under My Applications. If other users on the same TigerGraph instance have created their own applications, they will be listed under "Other Applications."
+
+=== Modify an application
+
+You can edit, duplicate, and delete applications from the same main page by clicking the three-dot menu.
+
+Click btn:[Settings] to update the name, icon, and default graph just as if you were creating the application for the first time.
+Duplicating an application is useful for quickly trying out new options while still being able to refer back to the previoous configuration.
+
+=== Backup and restore
+
+Inside the application menu, use another three-dot menu in the upper-right near the Save and Run icons.
+
+image::download-upload-application.png[]
+
+These buttons export or import the application panel in JSON format. If you delete an application, you cannot recover it from the TigerGraph system.
+You must use the Download and Upload features to create and restore any backups.
+
