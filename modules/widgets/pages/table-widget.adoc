@@ -3,4 +3,14 @@
 
 The Table widget displays vertices in the format of a relational table, similar to a spreadsheet.
 
+== Table Settings
 
+Sort columns by clicking on the column title.
+
+Edit columns with the edit button image:edit-button.png[] in the settings menu on the right side of the page.
+The options that appear are the different types of data in your data set.
+Check the boxes to include them in the table view.
+
+Delete columns with the trash icon image:trash-icon.png[] that appears to the right of the column name when hovering over it.
+
+Rearrange columns with the six-dot icon image:six-dot-rearrange.png[] that appears to the left of the column name when hovering over it.

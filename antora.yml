@@ -2,6 +2,8 @@ name: insights
 title: TigerGraph Insights
 version: main
 display_version: default
-start_page: start:overview.adoc
+start_page: intro:index.adoc
 
 nav:
+  - modules/intro/nav.adoc
+  - modules/widgets/nav.adoc
