@@ -1,6 +1,6 @@
 name: insights
 title: TigerGraph Insights
-version: main
+version: 3.7
 display_version: default
 start_page: intro:index.adoc
 
