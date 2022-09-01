@@ -3,6 +3,8 @@
 
 Applications are the backbone of TigerGraph Insights. Each application has pages, which themselves have widgets that display information from a TigerGraph instance.
 
+You can think of an application as a binder in a physical presentation. Binders have sections, which correspond to pages in Insights, and widgets are more advanced, interactive versions of charts and figures in a presentation.
+
 == Create an application
 
 You can create a maximum of 150 applications per TigerGraph instance.
