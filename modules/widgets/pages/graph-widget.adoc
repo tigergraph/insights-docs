@@ -4,7 +4,11 @@
 The Graph widget is very similar to the graph visualizer tool in GraphStudio.
 It allows you to display the relationships between vertices in a single widget based on a specified query.
 
-== Graph widget window
+== Inputs
+
+Accepts data as vertices and edges.
+
+== Widget window
 
 image::graph-window-controls.png[]
 

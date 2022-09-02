@@ -1,0 +1,7 @@
+= Line Chart Widget
+
+The Line Chart Widget displays one value from your graph database.
+
+== Inputs
+
+== Widget window

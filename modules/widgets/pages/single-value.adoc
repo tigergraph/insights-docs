@@ -1,0 +1,19 @@
+= Single Value Widget
+
+The Single Value Widget displays exactly one value from your graph database: the first attribute of the first vertex in a query result.
+
+== Inputs
+
+Accepts data as vertices and edges.
+
+== Widget window
+
+image::single-value-interface.png[]
+
+In this example, the first result for a query to show all `person` vertices is a vertex with the first attribute as a name, "Rao."
+
+Since TigerGraph Insights updates in real-time, you can set up a type of vertex that takes a sum or total count of another type of data in the graph.
+A query for that vertex in a Single Value widget would then create a live dashboard showing that summary value.
+
+In the Display section on the right side of the window, there are detailed settings for adjusting the icon and text size, type, and color.
+

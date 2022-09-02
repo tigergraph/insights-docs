@@ -32,37 +32,37 @@ Accepts data as vertices and edges.
 Overlays graph data on a map.
 Accepts data as vertices and edges as long as each one has a numeric attribute to be interpreted as latitude and longitude.
 
-=== Table Widget
+=== xref:table-widget.adoc[]
 
 Displays vertices as a relational table, similar to a spreadsheet.
 Supports any input data format.
 
-=== Single Value
+=== xref:single-value.adoc[]
 
 Displays the first attribute of the first vertex or edge in a query result.
 Ideal for displaying total counts or other summary values from a query.
 
-=== Line Chart
+=== xref:line-chart.adoc[]
 
 Displays a standard line chart.
 Accepts data as vertices and edges or a list of objects that contain at least one numeric attribute.
 
-=== Bar Chart
+=== xref:bar-chart.adoc[]
 
 Displays a standard bar chart.
 Accepts data as vertices and edges or a list of objects that contain at least one numeric attribute.
 
-=== Pie Chart
+=== xref:pie-chart.adoc[]
 
 Displays a standard pie chart.
 Accepts data as vertices and edges or a list of objects that contain at least one numeric attribute.
 
-=== Sankey Chart
+=== xref:sankey.adoc[]
 
 Displays a Sankey chart, ideal for displaying flow from one set of values to another.
 Accepts data as vertices and edges.
 
-=== Inputs
+=== xref:inputs.adoc[]
 
 An interactive widget that takes user input and uses it to run queries.
 Supports any input data format.

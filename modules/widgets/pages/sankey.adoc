@@ -1,0 +1,9 @@
+= Line Chart Widget
+
+The Line Chart Widget displays a standard bar chart based on the results of a pattern search.
+
+== Inputs
+
+
+
+== Widget window

@@ -3,3 +3,16 @@
 
 The Map widget displays vertex attributes as latitude and longitude data using an OpenStreetMap viewer.
 
+== Inputs
+
+Accepts data as vertices and edges.
+
+== Widget window
+
+image::map-interface.png[]
+
+If the vertex attributes are literally named "latitude" and "longitude", they will be automatically detected without any further user input needed.
+
+If there are other vertex attributes with different names that you would like to map to coordinates in the map viewer, you can change them in the btn:[Data] section on the right side of the window.
+
+Map widgets support xref:conditional-styling.adoc[].

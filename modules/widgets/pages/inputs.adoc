@@ -1,0 +1,9 @@
+= Inputs Widget
+
+The Line Chart Widget displays one value from your graph database.
+
+== Inputs
+
+The Inputs widget supports any data format in a TigerGraph database.
+
+== Widget window
