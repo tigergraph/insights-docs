@@ -1,6 +1,6 @@
 = Inputs Widget
 
-The Line Chart Widget displays one value from your graph database.
+The Inputs Widget displays one value from your graph database.
 
 == Inputs
 
