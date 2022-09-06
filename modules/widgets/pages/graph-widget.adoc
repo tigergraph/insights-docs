@@ -6,7 +6,7 @@ It allows you to display the relationships between vertices in a single widget b
 
 You can also run GSQL queries in this graph window.
 Please note that the queries are all run in interpreted mode,
-xref:3.6@gsql-ref:appendix:interpreted-gsql-limitations.adoc[in which not all GSQL query features are available.]
+xref:gsql-ref:appendix:interpreted-gsql-limitations.adoc[in which not all GSQL query features are available.]
 
 == Inputs
 

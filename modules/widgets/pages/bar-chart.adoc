@@ -11,12 +11,10 @@ For a GSQL query result, accepts a list of objects that contain at least one num
 
 image::bar-chart-interface.png[]
 
-=== Customize and sort
+=== Sorting and grouping
 Customize the category (the name of each bar) and one or more numeric values to display as stacked or adjacent bars in each category.
 
 Sort the data by the category name (alphabetical left to right) or value (increasing left to right).
-
-=== Group and aggregate data
 
 By default, grouping is done by combining adjacent bars into a summary bar. You can also adjust it to stack the bars in different colors.
 
@@ -25,9 +23,3 @@ Aggregate data with `COUNT`, `AVG`, `SUM`, `MAX`, and `MIN` functions.
 === Display options
 
 You have several options to control the design of the X and Y axis labels of the graph, as well as turn on and off a key that explains each color present.
-
-Set x-axis and y-axis name space between axis name and axis line;
-Set x-axis and y-axis name rotation;
-Swap x-axis and y-axis;
-Show or hide the chart legend;
-Show or hide data labels;
