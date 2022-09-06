@@ -1,9 +1,20 @@
-= Line Chart Widget
+= Sankey Chart Widget
 
-The Line Chart Widget displays a standard bar chart based on the results of a pattern search.
+The Sankey Chart Widget displays a Sankey chart showing proportional edge strength between different vertices.
+
+A Sankey chart is similar to a regular xref:graph-widget.adoc[Graph] visualization, except that its focus is not on a web of connections but on how strong each connection is.
+
+image::sankey-abstract.png[]
+
+The thickness of the connections in a Sankey chart is related to the "strength" of the connection, meaning the amount flowing from the start to the end.
+In this abstracted example, it is clear that the connections from `A` and `B` to `1` are much stronger than connections between any other vertices.
 
 == Inputs
 
-
+Accepts data as vertices and edges.
+Each edge should have at least one attribute of type `FLOAT` or `INT` so that the widget has something to measure.
 
 == Widget window
+
+image::sankey-interface.png[]
+
