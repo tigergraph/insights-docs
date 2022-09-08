@@ -20,6 +20,7 @@ By default, grouping is done by combining adjacent bars into a summary bar. You 
 
 Aggregate data with `COUNT`, `AVG`, `SUM`, `MAX`, and `MIN` functions.
 
+
 === Display options
 
 You have several options to control the design of the X and Y axis labels of the graph, as well as turn on and off a key that explains each color present.

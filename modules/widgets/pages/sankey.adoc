@@ -7,7 +7,7 @@ A Sankey chart is similar to a regular xref:graph-widget.adoc[Graph] visualizati
 image::sankey-abstract.png[]
 
 The thickness of the connections in a Sankey chart is related to the "strength" of the connection, meaning the amount flowing from the start to the end.
-In this abstracted example, it is clear that the connections from `A` and `B` to `1` are much stronger than connections between any other vertices.
+In this abstracted example, it is clear that the connections from `A` and `B` on the left side to `1` on the right side are much stronger than connections between any other vertices.
 
 == Inputs
 
@@ -18,3 +18,8 @@ Each edge should have at least one attribute of type `FLOAT` or `INT` so that th
 
 image::sankey-interface.png[]
 
+In the Data section of the right side panel, you can choose which numeric edge property to use as the displayed edge strength.
+
+=== Visual customization
+
+The Sankey widget supports changing the orientation (vertical/horizontal) and the vertical alignment of the chart in the widget.

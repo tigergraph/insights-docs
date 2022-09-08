@@ -28,6 +28,11 @@ The Table, Graph, and Map widgets support conditional styling.
 
 Table widgets support highlighting a row in a certain color based on a single column value.
 
+image::table-conditional-styling.png[]
+
+In this example, Person vertices with an annual salary of over $115,000 are highlighted blue and Person vertices with an age under 20 are highlighted red.
+The conditions execute in order from top to bottom, so even though the first row in the shown results matches both conditions, the red overwrites the blue.
+
 === Graph
 
 Graph widgets support highlighting vertices based on their attribute values.

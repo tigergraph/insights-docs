@@ -2,7 +2,16 @@
 :experimental:
 
 Actions are available on some widget types.
-They allow you to create customized links to either external resources or to refresh the widget display with different parameters.
+They allow you to create customized links to other pages in the application or to refresh the widget display with different parameters.
 
 
-Find the Create Action button on the widget edit menu.
+. First click btn:[Apply] to save progress on your widget.
+. Find the Create Action button on the widget edit menu.
+. In the Text field, add the name of your widget. This will be the hyperlink text displayed for users to click on.
+. In the URL dropdown, choose the destination.
+.. If you choose another application page, clicking the link will open up the new page.
+.. If you choose the same application page the widget is currently on, the widget will refresh with new parameters.
+. Add as many parameters as you want.
+
+Make sure you click btn:[Apply] at the bottom of the widget menu before testing your Action link.
+Clicking the Action link navigates you away from the Edit Widget window without automatically saving your progress.

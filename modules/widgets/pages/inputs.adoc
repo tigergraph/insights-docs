@@ -1,9 +1,10 @@
 = Inputs Widget
 
-The Inputs Widget displays one value from your graph database.
+The Inputs Widget allows you to display user input in a widget that can then be used to drive queries.
 
 == Inputs
 
 The Inputs widget supports any data format in a TigerGraph database.
 
 == Widget window
+

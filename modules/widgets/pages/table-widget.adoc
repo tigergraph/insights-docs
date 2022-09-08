@@ -5,6 +5,11 @@ The Table widget displays vertices in the format of a relational table, similar 
 
 == Table Settings
 
+image::table-interface.png[]
+
+Table widgets do not support visual customization in the same way as other widgets.
+However, they do support xref:conditional-styling.adoc[].
+
 Sort columns by clicking on the column title.
 
 Edit columns with the edit button image:edit-button.png[] in the settings menu on the right side of the page.
@@ -14,3 +19,4 @@ Check the boxes to include them in the table view.
 Delete columns with the trash icon image:trash-icon.png[] that appears to the right of the column name when hovering over it.
 
 Rearrange columns with the six-dot icon image:six-dot-rearrange.png[] that appears to the left of the column name when hovering over it.
+Columns appear left to right corresponding with the order top to bottom in the column name section.
