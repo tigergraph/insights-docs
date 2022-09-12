@@ -2,7 +2,7 @@
 :experimental:
 
 Actions are available on some widget types.
-They allow you to create customized links to other pages in the application or to refresh the widget display with different parameters.
+They allow you to create customized links to external sites, to other pages in the application or to refresh the widget display with different parameters.
 
 
 . First click btn:[Apply] to save progress on your widget.

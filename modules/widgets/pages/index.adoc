@@ -64,5 +64,5 @@ Accepts data as vertices and edges.
 
 === xref:inputs.adoc[]
 
-An interactive widget that takes user input and uses it to run queries.
+An interactive widget that takes user input and uses it to drive queries in other widgets.
 Supports any input data format.
