@@ -38,6 +38,11 @@ The conditions execute in order from top to bottom, so even though the first row
 Graph widgets support highlighting vertices based on their attribute values.
 You can also choose to resize vertices based on their attribute values to show importance.
 
+image::graph-conditional-styling.png[]
+
+This view shows three transactions between a Person (gray), an Address (beige), and a Purchase (purple).
+Conditional styling has been applied to make all addresses with a ZIP code above 67000 red, and all Purchases with an amount over 200 green.
+
 === Map
 
 Map widgets support highlighting vertices based on their attribute values.

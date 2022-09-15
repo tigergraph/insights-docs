@@ -5,7 +5,7 @@ Non-technical users can quickly and easily obtain meaningful visual insights tha
 
 [NOTE]
 This release of TigerGraph Insights is a preview meant for early learning and experimentation with new features.
-Please report any issues and feedback to support@tigergraph.com. 
+Please report any issues and feedback to support@tigergraph.com.
 
 == Features
 
