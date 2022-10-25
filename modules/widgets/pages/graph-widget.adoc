@@ -16,16 +16,32 @@ Accepts data as vertices and edges.
 
 image::graph-window-controls.png[]
 
-The tools on the left menu (labeled "1" in the diagram) allow you to examine a single vertex or edge in detail.
+=== View details
+
+The tools on the left menu allow you to examine a single vertex or edge in detail.
 With the vertex or edge selected, these buttons have the following functions, from top to bottom:
 
-* Show detailed information about the attributes of the currently selected node/edge.
-* Filter graph by nodes/vertices.
+* Show detailed information about the attributes of the currently selected vertex/edge.
 * Show graph nodes/edges information in tabular format.
 Click on any node or edge and the viewport will center on it.
 * Save the current graph view as an image. It is saved in the default Downloads directory as per your browser settings.
 
-The tools on the bottom right (labeled "2" in the diagram) have the following functions from left to right:
+=== Filter
+
+The bottom left icon brings up a filter menu that allows you to filter the displayed results by different qualities of the vertex or edge.
+
+In this example, we create a filter to only show edges with amounts between -500 and 500.
+
+image::filter-example-amount-500.png[]
+
+After the filter is applied, edges that have transfer amounts over 500 are reduced in visibility.
+No data is removed from the graph.
+
+image::sample-graph-after-filter.png[]
+
+=== Change graph view
+
+The tools on the bottom right have the following functions from left to right:
 
 * Zoom in
 * Zoom out
@@ -36,3 +52,17 @@ image::expand-vertices.png[]
 
 To save display space, some vertices have a small red number next to them.
 Double-click to expand them and reveal the full set of vertices.
+
+=== Undo
+
+The Undo/Redo buttons are in the top right of the graph window.
+All history is recorded since opening the graph widget.
+
+== Pathfinding
+
+TigerGraph Insights includes a simple way to run pathfinding detection algorithms without writing a single query.
+
+Click on a vertex to select it, then hold kbd:[Shift] and select another one.
+
+Right-click on either selected vertex and choose btn:[Pathfinding].
+You can choose to show one shortest path or all shortest paths.
