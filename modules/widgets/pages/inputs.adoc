@@ -58,3 +58,20 @@ This is a label only and does not constitute a default value for the input.
 
 The value that the Inputs widget should have without any user input.
 Without a default value, the variable defined by the input is `undefined`.
+
+== Dynamic Widget Names
+
+Widget names can incorporate variables stored in an Inputs Widget.
+
+Underneath the btn:[Widget name] section in any widget, open the btn:[Advanced] menu.
+If any variables exist, they will appear in that menu.
+
+Type `$(variables.<variablename>)` in the btn:[Widget Name] field and check the preview of how it appears in the btn:[Evaluated Widget Name] section.
+
+image::dynamic-widget-name.png[]
+
+In this example, there is an existing `MovieName` variable from an Inputs widget with the default value of `Star Wars`.
+A new Graph widget is created to incorporate the movie name into its title.
+On the main application page, the graph is titled `Star Wars Graph` by default.
+
+If a user changes it to a new name, the graph name updates, along with any other elements of the graph using the `MovieName` variable.

@@ -14,6 +14,14 @@ Each application page can have up to 20 widgets. Click on the btn:[+] icon in th
 
 After creation, you can move and resize the widget appearance on your page.
 
+=== Dynamic widget names
+
+Widget names can be fixed or dynamic.
+Dynamic names are updated through a variable created by an Inputs Widget.
+If you have an Inputs Widget, you can store the input value as a variable that can later be referenced in a query in another widget, or even in the name itself.
+
+See the xref:inputs.adoc[] page for more.
+
 == Create and save a query
 
 As you create a widget, you will be prompted to enter a query for it to visualize.
@@ -64,5 +72,5 @@ Accepts data as vertices and edges.
 
 === xref:inputs.adoc[]
 
-An interactive widget that takes user input and uses it to drive queries in other widgets.
+An interactive widget that takes user input and stores it as a variable that can then be used in queries in other widgets.
 Supports any input data format.
