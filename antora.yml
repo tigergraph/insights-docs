@@ -1,6 +1,6 @@
 name: insights
 title: TigerGraph Insights
-version: 3.7
+version: 3.8
 start_page: intro:index.adoc
 
 nav:
