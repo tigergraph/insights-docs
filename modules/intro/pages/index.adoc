@@ -21,15 +21,15 @@ From there, you can create xref:applications.adoc[] that display xref:widgets:in
 
 == Supported Browsers
 
-As of September 2022, Insights is certified on the following browsers:
+As of November 2022, Insights is certified on the following browsers:
 
 |===
 |Chrome |Safari |Firefox |Edge
 
-|Version 103.0.5060.53 (Official Build) (arm64)
-|Version 15.2 (17612.3.6.1.6)
-|Version 103.0.2
-|Version 104.0.1293.54 (Official build) (arm64)
+|Version 107.0.5304.107 (Official Build) (arm64)
+|Version 15.4 (17613.1.17.1.13)
+|Version 106.0.3
+|Version 107.0.1418.42 (Official build) (arm64)
 |===
 
 
@@ -40,4 +40,4 @@ Please make sure to enable JavaScript and cookies in your browser settings.
 
 * Concurrent editing on the same application is not supported.
 * Accumulators are not currently supported.
-* Widget in iframe sharing mode requires manual login
+* Widget in iframe sharing mode requires manual login.
