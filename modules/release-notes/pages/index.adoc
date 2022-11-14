@@ -1,0 +1,20 @@
+= Release Notes
+
+
+
+== 3.8
+
+=== General
+
+* Dynamic widget title support with embedded variables
+* Auto-refresh widget by setting a refresh interval
+* Allow passing variables to Write Own GSQL query
+* Performance and UI improvements
+
+=== Graph Widget
+
+* Added attribute-level filtering
+* Added Force layout
+* Added Explore Neighbors function
+* Enabled right-click pathfinding, PageRank, and Louvain algorithm support
+* Added Undo/Redo functions

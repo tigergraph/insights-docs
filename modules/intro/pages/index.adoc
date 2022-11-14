@@ -15,7 +15,7 @@ Please report any issues and feedback to support@tigergraph.com.
 
 == Quick Start
 
-Launch TigerGraph Insights from the nine-dot family of apps button image:nine-dot-button.png[] in the GUI of any cloud or local TigerGraph instance.
+Launch TigerGraph Insights from the nine-dot TigerGraph Suite button image:nine-dot-button.png[] in the GUI of any cloud or local TigerGraph instance.
 
 From there, you can create xref:applications.adoc[] that display xref:widgets:index.adoc[] for users to interact with.
 
@@ -36,11 +36,8 @@ As of September 2022, Insights is certified on the following browsers:
 Not all features are guaranteed to work on other browsers.
 Please make sure to enable JavaScript and cookies in your browser settings.
 
-
 == Limitations
 
-* Concurrent editing on the same application is not supported, if two users are editing the same application at the same time, the second editor might potentially lose his/her work.
-* Input names can be duplicated, the last changed value of the same named inputs will be used as the parameter value.
-* Accumulators are not currently supported
-* Only the creator can edit the application, all other users can view the application
+* Concurrent editing on the same application is not supported.
+* Accumulators are not currently supported.
 * Widget in iframe sharing mode requires manual login

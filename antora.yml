@@ -6,3 +6,4 @@ start_page: intro:index.adoc
 nav:
   - modules/intro/nav.adoc
   - modules/widgets/nav.adoc
+  - modules/release-notes/nav.adoc
