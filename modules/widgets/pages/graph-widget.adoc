@@ -58,6 +58,37 @@ Double-click to expand them and reveal the full set of vertices.
 The Undo/Redo buttons are in the top right of the graph window.
 All history is recorded since opening the graph widget.
 
+== Patterns and queries
+
+The search bar at the top allows you to show graph results from no-code pattern searches or from interpreted GSQL queries.
+
+=== Pattern search
+
+In this example, we use a sample graph called `social` from the GSQL 101 TigerGraph Cloud Starter Kit.
+Click on the search bar and select different types of vertices or edges to see patterns.
+
+image::graph-pattern-social.png[]
+
+If your vertices and edges have several attributes, you can add a filter to limit the results.
+This is equivalent to adding a `WHERE` clause in GSQL.
+
+In this example, we added filters after both `person` vertex options in the pattern.
+This allows us to show only friendships between people who are both over 24 years old.
+
+Creating a zero-code graph pattern search like this actually creates a GSQL query behind the scenes.
+Click the gear icon the right of the search bar and choose btn:[Copy generated query to clipboard], then paste it elsewhere to see how it was done.
+
+=== GSQL query
+
+If you would rather write your own GSQL query rather than searching for a pattern, click the magnifying glass icon to the left of the search bar to switch to the GSQL Query input option.
+
+From there, you can write a GSQL query and view the results visualized in the Graph View.
+Try pasting in the generated GSQL query from your pattern view.
+You should see exactly the same results.
+
+Try following along with the queries in xref:gsql-ref:tutorials:gsql-101/index.adoc[] using the same small friendship graph.
+Remember that Insights only works with GSQL queries in xref:gsql-ref:appendix:interpreted-gsql-limitations.adoc[Interpreted mode.]
+
 == Pathfinding
 
 TigerGraph Insights includes a simple way to run pathfinding detection algorithms without writing a single query.
