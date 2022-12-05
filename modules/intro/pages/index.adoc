@@ -3,9 +3,9 @@
 TigerGraph Insights is a no-code visual graph analyzer that makes building data analytics dashboards intuitive.
 Non-technical users can quickly and easily obtain meaningful visual insights that would remain hidden without a deep graph-enabled analysis of their connected data.
 
-[NOTE]
-This release of TigerGraph Insights is a preview meant for early learning and experimentation with new features.
-Please report any issues and feedback to support@tigergraph.com.
+//[NOTE]
+//This release of TigerGraph Insights is a preview meant for early learning and experimentation with new features.
+//Please report any issues and feedback to support@tigergraph.com.
 
 == Features
 
@@ -16,6 +16,8 @@ Please report any issues and feedback to support@tigergraph.com.
 == Quick Start
 
 Launch TigerGraph Insights from the nine-dot TigerGraph Suite button image:nine-dot-button.png[] in the GUI of any cloud or local TigerGraph instance.
+
+image:tools.png[]
 
 From there, you can create xref:applications.adoc[] that display xref:widgets:index.adoc[] for users to interact with.
 
