@@ -1,6 +1,18 @@
 = Release Notes
 
 
+== 3.9
+
+=== General
+
+* Multiple users can now edit applications at the same time.
+* Users can now save individual widgets and pages instead of applications.
+* Minor user interface tweaks and improvements.
+
+=== Graph Widget
+
+* Added support for vertex attribute values as a parameter for Graph Widget actions.
+
 
 == 3.8
 
