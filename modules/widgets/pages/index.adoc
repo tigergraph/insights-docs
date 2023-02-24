@@ -74,3 +74,7 @@ Accepts data as vertices and edges.
 
 An interactive widget that takes user input and stores it as a variable that can then be used in queries in other widgets.
 Supports any input data format.
+
+== Save a widget
+
+To save a widget separately from an application or page, click the Save button.
