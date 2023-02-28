@@ -1,10 +1,15 @@
 = Release Notes
 
+== 3.9
 
-==3.9
+=== General
+
 * Add support for multi-user editing of the same application.
 * Add the ability for users to save a widget independently instead of tying it to an application.
-* Add a mini-map to the Graph Widget for easier navigation.
+
+=== Graph Widgets
+
+* Add a mini-map to the Graph Widgets for easier navigation.
 
 == 3.8
 
@@ -15,7 +20,7 @@
 * Allow passing variables to Write Own GSQL query
 * Performance and UI improvements
 
-=== Graph Widget
+=== Graph Widgets
 
 * Added attribute-level filtering
 * Added Force layout
