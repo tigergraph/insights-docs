@@ -1,6 +1,10 @@
 = Release Notes
 
 
+==3.9
+* Add support for multi-user editing of the same application.
+* Add the ability for users to save a widget independently instead of tying it to an application.
+* Add a mini-map to the Graph Widget for easier navigation.
 
 == 3.8
 
