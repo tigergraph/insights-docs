@@ -40,6 +40,6 @@ Please make sure to enable JavaScript and cookies in your browser settings.
 
 == Limitations
 
-* Concurrent editing on the same application is not supported.
+* Concurrent editing of the same widget is not supported.
 * Accumulators are not currently supported.
 * Widget in iframe sharing mode requires manual login.
