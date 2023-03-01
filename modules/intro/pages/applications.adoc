@@ -38,6 +38,12 @@ You can edit, duplicate, and delete applications from the same main page by clic
 Click btn:[Settings] to update the name, icon, and default graph just as if you were creating the application for the first time.
 Duplicating an application is useful for quickly trying out new options while still being able to refer back to the previoous configuration.
 
+=== Share an application
+
+Click on btn:[Share] in the three-dot menu to bring up the Share window.
+
+image::share-application.png[]
+
 === Backup and restore
 
 Inside the application menu, use another three-dot menu in the upper-right near the Save and Run icons.
