@@ -40,9 +40,62 @@ Duplicating an application is useful for quickly trying out new options while st
 
 === Share an application
 
+==== Share via login
 Click on btn:[Share] in the three-dot menu to bring up the Share window.
 
 image::share-application.png[]
+
+==== Share via access token
+
+Access tokens may be used to share application widgets with other users without login into insights.
+
+===== Creating database account
+
+You will need a separate database account to generate an access token for Insights.
+Ensure that you grant minimal privileges to this account.
+
+Please check the xref:tigergraph-server:reference:list-of-privileges.adoc[].
+
+TigerGraph provides two types of queries: Installed and Interpret.
+
+Interpret query is the default query type, unless you explicitly convert it to an installed query.
+
+==== Write query permission is required to run interpret queries.
+
+`READ_DATA` privilege is required for any type of query, and you can grant it at various levels based on your query.
+(Details are provided in xref:tigergraph-server:user-access:user-management.adoc[local privileges])
+
+`READ_SCHEMA READ_QUERY` is also needed for any type of query.
+
+.The minimal required privileges for different types of queries:
+[cols='2']
+|===
+| Query Type | Minimal Required Privileges
+
+| Installed Query | READ_DATA READ_SCHEMA READ_QUERY
+| Interpret Query | READ_DATA READ_SCHEMA READ_QUERY WRITE_QUERY
+|===
+
+==== (Optional) Config nginx
+
+This is only needed if you want to embed insights into third party webpage.
+
+Go to admin portal to config `nginx`.
+
+[source, console]
+Content-Security-Policy: frame-ancestors 'self' https://www.thirdparty.com;
+
+==== Generating access token
+
+Use the account you just created to generate an access token.
+
+Go to `Application > Settings > Security` to create the access token.
+
+At the security page, we also provide a standalone application URL based on the access token.
+
+==== Obtaining widget sharing link
+
+You can go to `Widget > Share` to obtain the sharing link.
 
 === Backup and restore
 
