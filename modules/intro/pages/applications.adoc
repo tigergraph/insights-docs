@@ -47,7 +47,7 @@ image::share-application.png[]
 
 ==== Share via access token
 
-Access tokens may be used to share application widgets with other users without login into insights.
+Access tokens may also be used to share application widgets with other users without a login for insights.
 
 ===== Creating database account
 
@@ -56,29 +56,29 @@ Ensure that you grant minimal privileges to this account.
 
 Please check the xref:tigergraph-server:reference:list-of-privileges.adoc[].
 
-TigerGraph provides two types of queries: Installed and Interpret.
+TigerGraph provides two types of queries: **Installed** and **Interpret**.
 
-Interpret query is the default query type, unless you explicitly convert it to an installed query.
+The **Interpret** query is the default query type, unless you explicitly convert it to an **Installed** query.
 
 ==== Write query permission is required to run interpret queries.
 
-`READ_DATA` privilege is required for any type of query, and you can grant it at various levels based on your query.
-(Details are provided in xref:tigergraph-server:user-access:user-management.adoc[local privileges])
+`READ_DATA` privilege is required for any type of query, and you can grant it at various levels.
+(Details are provided in xref:gui:admin-portal:management/user-management.adoc[local privileges])
 
-`READ_SCHEMA READ_QUERY` is also needed for any type of query.
+`READ_SCHEMA` and `READ_QUERY` are also needed for any type of query.
 
 .The minimal required privileges for different types of queries:
 [cols='2']
 |===
 | Query Type | Minimal Required Privileges
 
-| Installed Query | READ_DATA READ_SCHEMA READ_QUERY
-| Interpret Query | READ_DATA READ_SCHEMA READ_QUERY WRITE_QUERY
+| Installed Query | `READ_DATA` ,`READ_SCHEMA`, `READ_QUERY`
+| Interpret Query | `READ_DATA` ,`READ_SCHEMA` ,`READ_QUERY`, `WRITE_QUERY`
 |===
 
 ==== (Optional) Config nginx
 
-This is only needed if you want to embed insights into third party webpage.
+This is only needed if you want to embed insights into third party webpages.
 
 Go to admin portal to config `nginx`.
 
