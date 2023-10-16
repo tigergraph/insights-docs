@@ -41,26 +41,36 @@ Duplicating an application is useful for quickly trying out new options while st
 === Share an application
 
 ==== Share via login
-Click on btn:[Share] in the three-dot menu to bring up the Share window.
+* Click on btn:[Share] in the three-dot menu to bring up the Share window.
+
+* Select one of the listed users.
 
 image::share-application.png[]
 
 ==== Share via access token
 
-Access tokens may also be used to share application widgets with other users without a login for insights.
+If you want to share your widget with a user who does not have an Insights login, you can send them an access token.
 
-===== Creating database account
+==== Creating database account
 
 You will need a separate database account to generate an access token for Insights.
 Ensure that you grant minimal privileges to this account.
 
 Please check the xref:tigergraph-server:reference:list-of-privileges.adoc[].
 
-TigerGraph provides two types of queries: **Installed** and **Interpret**.
+TigerGraph provides two modes for running queries:
 
-The **Interpret** query is the default query type, unless you explicitly convert it to an **Installed** query.
+* Run a previously **Installed** query
+* **Interpret** an ad hoc query
 
-==== Write query permission is required to run interpret queries.
+For Insights, **Interpret** query is the default query mode, unless you explicitly convert it to an **Installed** query.
+If your widget only needs pre-designed queries, then you may only need **installed** queries.
+If you want users to be able to create and run their own queries, then likely they will need to be able to **interpret** queries.
+
+==== Query permissions required to write/run queries.
+
+`WRITE_QUERY` privilege is required to interpret queries or to install queries.
+It is not needed to run an installed query.
 
 `READ_DATA` privilege is required for any type of query, and you can grant it at various levels.
 (Details are provided in xref:gui:admin-portal:management/user-management.adoc[local privileges])
@@ -78,9 +88,10 @@ The **Interpret** query is the default query type, unless you explicitly convert
 
 ==== (Optional) Config nginx
 
-This is only needed if you want to embed insights into third party webpages.
+This is only needed if you want to embed Insights into third party webpages.
 
-Go to admin portal to config `nginx`.
+* Switch to the Admin Portal tool to configure `nginx`.
+* Set the `content-security-policy` parameter as below, substituting in your web page's URL.
 
 [source, console]
 Content-Security-Policy: frame-ancestors 'self' https://www.thirdparty.com;
@@ -88,14 +99,47 @@ Content-Security-Policy: frame-ancestors 'self' https://www.thirdparty.com;
 ==== Generating access token
 
 Use the account you just created to generate an access token.
+The access token is inside a URL that can be embedded on a page as an iframe into a dashboard.
 
-Go to `Application > Settings > Security` to create the access token.
+* Go to `Application > Settings` in the three-dot menu of the specific application.
 
-At the security page, we also provide a standalone application URL based on the access token.
+image::Application2Setting.png[]
+
+* On the application page choose the gear icon for `Settings`.
+
+image::appliactionpage2security2.png[]
+
+* Go to the `Security` tab to create the access token.
+
+image::secuirtyPage.png[]
+
+* Click btn:[Generate new token] button and fill in the username/password details.
+
+==== Get the shared link for whole application
+
+We also provide a standalone application URL based on the access token.
+
+* Go back to `Application` page
+
+image::appliactionpage2security2.png[]
+
+* Click `Share`
+
+image::applicationShare.png[]
+
+* And you can copy the URL token from here.
+
+image::apllicationSharepage.png[]
 
 ==== Obtaining widget sharing link
 
-You can go to `Widget > Share` to obtain the sharing link.
+* On the application page. Go to the individual widget and click the three dots.
+
+image::WidgetShare.png[]
+
+* Go to `Share` to obtain the sharing link for the specific widget.
+
+image::widgetAccessToken.png[]
 
 === Backup and restore
 
