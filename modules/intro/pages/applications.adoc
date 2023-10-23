@@ -99,7 +99,7 @@ Content-Security-Policy: frame-ancestors 'self' https://www.thirdparty.com;
 Use the account you just created to generate an access token.
 The access token gets generated as part of a URL, which then can be shared.
 
-* Go to `Application > Settings` in the three-dot menu of the specific application.
+* Go to menu:Application[ Settings ] in the three-dot menu of the specific application.
 
 image::Application2Setting.png[]
 
