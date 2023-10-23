@@ -49,7 +49,7 @@ image::share-application.png[]
 
 === Share via access token
 
-If you want to share your widget with a user who does not have an Insights login, you can send them an access token.
+If you want to share your widget with a user who does not have an Insights login, you can send them an URL/access token.
 
 ==== Create a database account
 
@@ -64,7 +64,7 @@ TigerGraph provides two modes for running queries:
 * **Interpret** an ad hoc query
 
 For Insights, **Interpret** query is the default query mode, unless you explicitly convert it to an **Installed** query.
-If your widget only needs pre-designed queries, then you may only need **installed** queries.
+If your widget only needs pre-designed queries, then you may only need **Installed** queries.
 If you want users to be able to create and run their own queries, then likely they will need to be able to **Interpret** queries.
 
 `WRITE_QUERY` privilege is required to interpret queries or to install queries.
