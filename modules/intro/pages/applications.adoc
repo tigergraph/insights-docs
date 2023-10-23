@@ -38,13 +38,129 @@ You can edit, duplicate, and delete applications from the same main page by clic
 Click btn:[Settings] to update the name, icon, and default graph just as if you were creating the application for the first time.
 Duplicating an application is useful for quickly trying out new options while still being able to refer back to the previoous configuration.
 
-=== Share an application
+== Share an application
 
-Click on btn:[Share] in the three-dot menu to bring up the Share window.
+=== Share via login
+* Click on btn:[Share] in the three-dot menu to bring up the Share window.
+
+* Select one of the listed users.
 
 image::share-application.png[]
 
-=== Backup and restore
+=== Share via access token
+
+If you want to share your widget with a user who does not have an Insights login, you can send them an URL/access token.
+
+==== Create a database account
+
+You will need a separate database account to generate an access token for Insights.
+Ensure that you grant minimal privileges to this account.
+
+Please check the xref:tigergraph-server:reference:list-of-privileges.adoc[].
+
+TigerGraph provides two modes for running queries:
+
+* Run a previously **Installed** query
+* **Interpret** an ad hoc query
+
+For Insights, **Interpret** query is the default query mode, unless you explicitly convert it to an **Installed** query.
+If your widget only needs pre-designed queries, then you may only need **Installed** queries.
+If you want users to be able to create and run their own queries, then likely they will need to be able to **Interpret** queries.
+
+`WRITE_QUERY` privilege is required to interpret queries or to install queries.
+It is not needed to run an installed query.
+
+`READ_DATA` privilege is required for any type of query, and you can grant it at various levels.
+(Details are provided in xref:gui:admin-portal:management/user-management.adoc[local privileges])
+
+`READ_SCHEMA` and `READ_QUERY` are also needed for any type of query.
+
+.The minimal required privileges for different types of queries:
+[cols='2']
+|===
+| Query Type | Minimal Required Privileges
+
+| Installed Query | `READ_DATA` ,`READ_SCHEMA`, `READ_QUERY`
+| Interpret Query | `READ_DATA` ,`READ_SCHEMA` ,`READ_QUERY`, `WRITE_QUERY`
+|===
+
+==== (Optional) Configure nginx
+
+This is only needed if you want to embed Insights into third party webpages.
+
+* Switch to the Admin Portal tool to configure `nginx`.
+* Set the `content-security-policy` parameter as below, substituting in your web page's URL.
+
+[source, console]
+Content-Security-Policy: frame-ancestors 'self' https://www.thirdparty.com;
+
+==== Generate an access token
+
+Use the account you just created to generate an access token.
+The access token gets generated as part of a URL, which then can be shared.
+
+* Go to menu:Application[ Settings ] in the three-dot menu of the specific application.
+
+image::Application2Setting.png[]
+
+* On the application page choose the gear icon for `Settings`.
+
+image::appliactionpage2security2.png[]
+
+* Go to the `Security` tab to create the access token.
+
+image::secuirtyPage.png[]
+
+* Click btn:[Generate new token] button and fill in the username/password details.
+
+==== Get the Shared Link for a Whole Application
+
+We also provide a standalone application URL based on the access token.
+
+* Go back to `Application` page
+
+image::appliactionpage2security2.png[]
+
+* Click `Share`
+
+image::applicationShare.png[]
+
+* And you can copy the URL token from here.
+
+image::apllicationSharepage.png[]
+
+==== Obtain a Widget sharing link
+
+* On the application page. Go to the individual widget and click the three dots.
+
+image::WidgetShare.png[]
+
+* Go to `Share` to obtain the sharing link for the specific widget.
+
+image::widgetAccessToken.png[]
+
+==== Share the Token/URL
+
+You can now share this URL with others and they do not need a login to view the widget or application.
+They can view the widget or application by coping and pasting the URL into a browser.
+
+Additionally, the URL can be embedded on a page as an `<iframe src="Token/URL" >` on a website.
+
+.Example: Add <iframe> tag into user’s web page. The iframe src parameter is the shared URL.
+[source, html]
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <iframe width="1024" height="800" src="https://tools-staging-v390.tgcloud.io/insights/app/sNi2JDPvExHJP3CMVy4mj4/page/dx4rfXsFDUB8RoQnxBmvhj/widgetShare/dgeUrw78PQuKYfqnULc9US?domain=feeaa44787b0445ea1df86b16d8fd396.i&orgName=tg-leadership&clusterid=b6b07192-4d5c-4b69-811f-57a73d3de84c" title="tigergarph insights" frameborder="0"></iframe>
+    </body>
+</html>
+
+
+== Backup and restore
 
 Inside the application menu, use another three-dot menu in the upper-right near the Save and Run icons.
 
