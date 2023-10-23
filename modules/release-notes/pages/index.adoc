@@ -4,8 +4,8 @@
 
 === General
 
-* Add support for sharing and multi-user editing of the same application.
-* Add the ability for users to save a widget independently instead of tying it to an application.
+* Added support for sharing and multi-user editing of the same application.
+* Added the ability for users to save a widget independently instead of tying it to an application.
 
 === Graph Widgets
 
