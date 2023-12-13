@@ -1,10 +1,12 @@
 name: insights
-title: TigerGraph Insights
+title: TigerGraph Suite
 version: 3.9
 display_version: "3.9 LTS"
 start_page: intro:index.adoc
 
 nav:
+  - gui-docs::modules/admin-portal/nav.doc
+  - gui-docs::modules/graphstudio/nav.doc
   - modules/intro/nav.adoc
   - modules/widgets/nav.adoc
   - modules/release-notes/nav.adoc
