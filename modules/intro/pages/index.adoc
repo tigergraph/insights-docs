@@ -1,17 +1,42 @@
 = Overview
 
 TigerGraph Insights is a no-code visual graph analyzer that makes building data analytics dashboards intuitive.
-Non-technical users can quickly and easily obtain meaningful visual insights that would remain hidden without a deep graph-enabled analysis of their connected data.
 
-//[NOTE]
-//This release of TigerGraph Insights is a preview meant for early learning and experimentation with new features.
-//Please report any issues and feedback to support@tigergraph.com.
+Insights offers a way to create responsive and interactive demos for displaying graph information to a general audience and
+non-technical users can quickly and easily obtain meaningful visual insights that would remain hidden without a deep graph-enabled analysis of their connected data.
 
-== Features
+*Already familiar with Insights?* Skip ahead to the xref:_quick_start[], xref:_supported_browsers[], xref:_limitations[] sections or get to know Insights below.
 
-* Intuitive visual query builder
-* Ability to explore graph data through xref:widgets:index.adoc[], including graphs, maps, tables, charts, and more
-* Responsive and interactive demos for displaying graph information to a general audience
+== Get to Know Insights
+[.home-card,cols="3,3,3",grid=none,frame=none]
+|===
+a|
+*Applications*
+
+xref:applications.adoc[] are the backbone of TigerGraph Insights that display information from a TigerGraph instance.
+
+a|
+*Widgets*
+
+xref:insights:widgets:index.adoc[Widgets] populate pages to provide easy-to-use graph visualizations for your data
+
+a|
+*Actions*
+
+xref:insights:widgets:actions.adoc[] allow users to create customized links to external sites, to other pages in the application, or to refresh the widget display with different parameters.
+
+a|
+*Conditional Styling*
+
+Several widgets support xref:insights:widgets:conditional-styling.adoc[], similar to conditional formatting in Excel
+
+a|
+*Release Notes*
+
+See xref:insights:release-notes:index.adoc[] for the most up-to-date news on TigerGraph Insights.
+
+a|
+|===
 
 == Quick Start
 
