@@ -8,7 +8,7 @@ non-technical users can quickly and easily obtain meaningful visual insights tha
 *Already familiar with Insights?* Skip ahead to the xref:_quick_start[], xref:_supported_browsers[], xref:_limitations[] sections or get to know Insights below.
 
 == Get to Know Insights
-[.home-card,cols="3,3,3",grid=none,frame=none]
+[.home-card,cols="2",grid=none,frame=none]
 |===
 a|
 *Applications*
