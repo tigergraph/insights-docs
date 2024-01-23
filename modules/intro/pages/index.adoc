@@ -11,60 +11,42 @@ non-technical users can quickly and easily obtain meaningful visual insights tha
 [.home-card,cols="2",grid=none,frame=none]
 |===
 a|
+image:getstarted-homecard.png[alt=getstarted,width=74,height=74]
+*Get Started*
+
+A xref:insights:intro:get-started.adoc[Get Started ↗] guide to help you get up and running.
+
+a|
+image:tg_suites-homecard.png[alt=apps,width=74,height=74]
 *Applications*
 
-xref:applications.adoc[] are the backbone of TigerGraph Insights that display information from a TigerGraph instance.
+xref:applications.adoc[Applications ↗] are the backbone of TigerGraph Insights that display information from a TigerGraph instance.
 
 a|
+image:ArchtectureOverview-homecard.png[alt=widgets,width=74,height=74]
 *Widgets*
 
-xref:insights:widgets:index.adoc[Widgets] populate pages to provide easy-to-use graph visualizations for your data
+xref:insights:widgets:index.adoc[Widgets ↗] populate pages to provide easy-to-use graph visualizations for your data
 
 a|
+image:Actions-homecard.png[alt=actions,width=74,height=74]
 *Actions*
 
-xref:insights:widgets:actions.adoc[] allow users to create customized links to external sites, to other pages in the application, or to refresh the widget display with different parameters.
+xref:insights:widgets:actions.adoc[Actions ↗] allow users to create customized links to external sites, to other pages in the application, or to refresh the widget display with different parameters.
 
 a|
+image:condtionalstyling.png[alt=styling,width=74,height=74]
 *Conditional Styling*
 
-Several widgets support xref:insights:widgets:conditional-styling.adoc[], similar to conditional formatting in Excel
+Several widgets support xref:insights:widgets:conditional-styling.adoc[Conditional Styling ↗] similar to conditional formatting in Excel.
 
 a|
+image:documentation-homecard.png[alt=documenation,width=74,height=74]
 *Release Notes*
 
-See xref:insights:release-notes:index.adoc[] for the most up-to-date news on TigerGraph Insights.
+See xref:insights:release-notes:index.adoc[Release Notes ↗] for the most up-to-date news on TigerGraph Insights.
 
 a|
 |===
 
-== Quick Start
 
-Launch TigerGraph Insights from the nine-dot TigerGraph Suite button image:nine-dot-button.png[] in the GUI of any cloud or local TigerGraph instance.
-
-image:tools.png[]
-
-From there, you can create xref:applications.adoc[] that display xref:widgets:index.adoc[] for users to interact with.
-
-== Supported Browsers
-
-As of November 2022, Insights is certified on the following browsers:
-
-|===
-|Chrome |Safari |Firefox |Edge
-
-|Version 107.0.5304.107 (Official Build) (arm64)
-|Version 15.4 (17613.1.17.1.13)
-|Version 106.0.3
-|Version 107.0.1418.42 (Official build) (arm64)
-|===
-
-
-Not all features are guaranteed to work on other browsers.
-Please make sure to enable JavaScript and cookies in your browser settings.
-
-== Limitations
-
-* Concurrent editing of the same widget is not supported.
-* Accumulators are not currently supported.
-* Widget in iframe sharing mode requires manual login.
