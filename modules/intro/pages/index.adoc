@@ -6,45 +6,45 @@ Insights offers a way to create responsive and interactive demos for displaying 
 non-technical users can quickly and easily obtain meaningful visual insights that would remain hidden without a deep graph-enabled analysis of their connected data.
 
 == Get to Know Insights
-[.home-card,cols="2",grid=none,frame=none]
+[.home-card,cols="2",grid=none,frame=none, separator=¦]
 |===
-a|
+¦
 image:getstarted-homecard.png[alt=getstarted,width=74,height=74]
 *Get Started*
 
-A xref:insights:intro:get-started.adoc[Get Started ↗] guide to help you get up and running.
+A xref:insights:intro:get-started.adoc[Get Started] guide to help you get up and running.
 
-a|
+¦
 image:tg_suites-homecard.png[alt=apps,width=74,height=74]
 *Applications*
 
-xref:applications.adoc[Applications ↗] are the backbone of TigerGraph Insights that display information from a TigerGraph instance.
+xref:applications.adoc[Applications] are the backbone of TigerGraph Insights that display information from a TigerGraph instance.
 
-a|
+¦
 image:ArchtectureOverview-homecard.png[alt=widgets,width=74,height=74]
 *Widgets*
 
-xref:insights:widgets:index.adoc[Widgets ↗] populate pages to provide easy-to-use graph visualizations for your data
+xref:insights:widgets:index.adoc[Widgets] populate pages to provide easy-to-use graph visualizations for your data
 
-a|
+¦
 image:Actions-homecard.png[alt=actions,width=74,height=74]
 *Actions*
 
-xref:insights:widgets:actions.adoc[Actions ↗] allow users to create customized links to external sites, to other pages in the application, or to refresh the widget display with different parameters.
+xref:insights:widgets:actions.adoc[Actions] allow users to create customized links to external sites, to other pages in the application, or to refresh the widget display with different parameters.
 
-a|
+¦
 image:condtionalstyling.png[alt=styling,width=74,height=74]
 *Conditional Styling*
 
-Several widgets support xref:insights:widgets:conditional-styling.adoc[Conditional Styling ↗] similar to conditional formatting in Excel.
+Several widgets support xref:insights:widgets:conditional-styling.adoc[Conditional Styling] similar to conditional formatting in Excel.
 
-a|
+¦
 image:documentation-homecard.png[alt=documenation,width=74,height=74]
 *Release Notes*
 
-See xref:insights:release-notes:index.adoc[Release Notes ↗] for the most up-to-date news on TigerGraph Insights.
+See xref:insights:release-notes:index.adoc[Release Notes] for the most up-to-date news on TigerGraph Insights.
 
-a|
+¦
 |===
 
 
