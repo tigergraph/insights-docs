@@ -1,2 +1,2 @@
 * xref:index.adoc[]
-* xref:insights:release-notes:legacy-tg-versions.adoc[]
+* xref:legacy-tg-versions.adoc[]
