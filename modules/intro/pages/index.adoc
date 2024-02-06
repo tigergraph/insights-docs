@@ -14,6 +14,7 @@ image:getstarted-homecard.png[alt=getstarted,width=74,height=74]
 
 A xref:insights:intro:get-started.adoc[Get Started] guide to help you get up and running.
 
+
 ¦
 image:tg_suites-homecard.png[alt=apps,width=74,height=74]
 *Applications*
