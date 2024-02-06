@@ -1,45 +1,50 @@
 = Overview
 
 TigerGraph Insights is a no-code visual graph analyzer that makes building data analytics dashboards intuitive.
-Non-technical users can quickly and easily obtain meaningful visual insights that would remain hidden without a deep graph-enabled analysis of their connected data.
 
-//[NOTE]
-//This release of TigerGraph Insights is a preview meant for early learning and experimentation with new features.
-//Please report any issues and feedback to support@tigergraph.com.
+Insights offers a way to create responsive and interactive demos for displaying graph information to a general audience.
+Additionally, non-technical users can quickly and easily obtain meaningful visual insights that would remain hidden without a deep graph-enabled analysis of their connected data.
 
-== Features
-
-* Intuitive visual query builder
-* Ability to explore graph data through xref:widgets:index.adoc[], including graphs, maps, tables, charts, and more
-* Responsive and interactive demos for displaying graph information to a general audience
-
-== Quick Start
-
-Launch TigerGraph Insights from the nine-dot TigerGraph Suite button image:nine-dot-button.png[] in the GUI of any cloud or local TigerGraph instance.
-
-image:tools.png[]
-
-From there, you can create xref:applications.adoc[] that display xref:widgets:index.adoc[] for users to interact with.
-
-== Supported Browsers
-
-As of November 2022, Insights is certified on the following browsers:
-
+== Get to Know Insights
+[.home-card,cols="2",grid=none,frame=none, separator=¦]
 |===
-|Chrome |Safari |Firefox |Edge
+¦
+image:getstarted-homecard.png[alt=getstarted,width=74,height=74]
+*Get Started*
 
-|Version 107.0.5304.107 (Official Build) (arm64)
-|Version 15.4 (17613.1.17.1.13)
-|Version 106.0.3
-|Version 107.0.1418.42 (Official build) (arm64)
+A xref:insights:intro:get-started.adoc[Get Started] guide to help you get up and running.
+
+¦
+image:tg_suites-homecard.png[alt=apps,width=74,height=74]
+*Applications*
+
+xref:applications.adoc[Applications] are the backbone of TigerGraph Insights that display information from a TigerGraph instance.
+
+¦
+image:ArchtectureOverview-homecard.png[alt=widgets,width=74,height=74]
+*Widgets*
+
+xref:insights:widgets:index.adoc[Widgets] populate pages to provide easy-to-use graph visualizations for your data
+
+¦
+image:Actions-homecard.png[alt=actions,width=74,height=74]
+*Actions*
+
+xref:insights:widgets:actions.adoc[Actions] allow users to create customized links to external sites, to other pages in the application, or to refresh the widget display with different parameters.
+
+¦
+image:condtionalstyling.png[alt=styling,width=74,height=74]
+*Conditional Styling*
+
+Several widgets support xref:insights:widgets:conditional-styling.adoc[Conditional Styling] similar to conditional formatting in Excel.
+
+¦
+image:documentation-homecard.png[alt=documenation,width=74,height=74]
+*Release Notes*
+
+See xref:insights:release-notes:index.adoc[Release Notes] for the most up-to-date news on TigerGraph Insights.
+
+¦
 |===
 
 
-Not all features are guaranteed to work on other browsers.
-Please make sure to enable JavaScript and cookies in your browser settings.
-
-== Limitations
-
-* Concurrent editing of the same widget is not supported.
-* Accumulators are not currently supported.
-* Widget in iframe sharing mode requires manual login.

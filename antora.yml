@@ -1,5 +1,5 @@
 name: insights
-title: TigerGraph Insights
+title: Insights
 version: 3.9
 display_version: "3.9 LTS"
 start_page: intro:index.adoc
