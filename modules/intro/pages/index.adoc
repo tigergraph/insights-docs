@@ -2,8 +2,8 @@
 
 TigerGraph Insights is a no-code visual graph analyzer that makes building data analytics dashboards intuitive.
 
-Insights offers a way to create responsive and interactive demos for displaying graph information to a general audience and
-non-technical users can quickly and easily obtain meaningful visual insights that would remain hidden without a deep graph-enabled analysis of their connected data.
+Insights offers a way to create responsive and interactive demos for displaying graph information to a general audience.
+Additionally, non-technical users can quickly and easily obtain meaningful visual insights that would remain hidden without a deep graph-enabled analysis of their connected data.
 
 == Get to Know Insights
 [.home-card,cols="2",grid=none,frame=none, separator=¦]
