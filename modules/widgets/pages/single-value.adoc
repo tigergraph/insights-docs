@@ -1,6 +1,6 @@
-= Single Value Widget
+= Value Widget
 
-The Single Value Widget displays exactly one value from your graph database: the first attribute of the first vertex in a query result.
+The Value Widget displays values from your graph database.
 
 == Inputs
 
@@ -8,12 +8,65 @@ Accepts data as vertices and edges.
 
 == Widget window
 
-image::single-value-interface.png[]
+Click btn:[Value] Widget.
 
-In this example, the first result for a query to show all `person` vertices is a vertex with the first attribute as a name, "Rao."
+image::Screen Shot 2024-03-05 at 10.57.02 AM.png[]
 
-Since TigerGraph Insights updates in real-time, you can set up a type of vertex that takes a sum or total count of another type of data in the graph.
-A query for that vertex in a Single Value widget would then create a live dashboard showing that summary value.
+image::Screen Shot 2024-03-05 at 10.57.31 AM.png[]
 
 In the Display section on the right side of the window, there are detailed settings for adjusting the icon and text size, type, and color.
+
+== Writing GSQL Statements
+Insights supports human language like pattern search, as well as the powerful GSQL query language for more advanced users.
+
+image::Screen Shot 2024-03-05 at 10.58.11 AM.png[]
+
+=== Use Pattern Search
+.Pattern Search Example 1
+image::Screen Shot 2024-03-05 at 10.58.38 AM.png[]
+.Pattern Search Example 2
+image::Screen Shot 2024-03-05 at 10.58.55 AM.png[]
+.Pattern Search Example 3
+image::Screen Shot 2024-03-05 at 10.59.11 AM.png[]
+.Pattern Search Example 4
+image::Screen Shot 2024-03-05 at 10.59.27 AM.png[]
+
+=== Use GSQL Language Search
+image::Screen Shot 2024-03-05 at 10.59.54 AM.png[]
+
+If there are multiple `PRINT` statements, users can map multiple print values：
+
+[source, gsql]
+----
+INTERPRET QUERY() FOR GRAPH MyGraph {
+    PRINT "demo1";
+    PRINT "demo2";
+    PRINT "demo3";
+}
+----
+.Multiple `PRINT` Statement Example
+image::Screen Shot 2024-03-05 at 11.00.32 AM.png[]
+
+
+
+If the multiple values are printed using `PRINT` and they include vertices or edges, only the value of the first attribute of the vertex or edge can be mapped.
+
+[source, gsql]
+----
+INTERPRET QUERY() FOR GRAPH MyGraph {
+    start = {City.*};
+    start = SELECT c FROM City:c;
+    PRINT start;
+    PRINT "demo1";
+}
+----
+
+image::Screen Shot 2024-03-05 at 11.00.56 AM.png[]
+
+
+
+
+
+
+
 
