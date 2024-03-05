@@ -1,4 +1,5 @@
 = Markdown Widget
+:experimental:
 
 TigerGraph Insights introduces a Markdown Widget as a customizable feature within the dashboard.
 Empowering users to incorporate formatted text, links, images, and diverse content to enrich the dashboard experience.

@@ -1,4 +1,5 @@
 = Value Widget
+:experimental:
 
 The Value Widget displays values from your graph database.
 
