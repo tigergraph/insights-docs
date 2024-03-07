@@ -35,19 +35,31 @@ The conditions execute in order from top to bottom, so even though the first row
 
 === Graph
 
-Graph widgets support highlighting vertices based on their attribute values.
-You can also choose to resize vertices based on their attribute values to show importance.
+Graph widgets support highlighting vertices and edges based on their attribute values.
+You can also choose to resize vertices and edges based on their attribute values to show importance.
 
-image::graph-conditional-styling.png[]
+image::Screen Shot 2024-03-07 at 1.48.13 PM.png[]
 
-This view shows three transactions between a Person (gray), an Address (beige), and a Purchase (purple).
-Conditional styling has been applied to make all addresses with a ZIP code above 67000 red, and all Purchases with an amount over 200 green.
+This view shows three transactions between a city (vertex/gray), an infection (vertex/red), and a case in city (edge/light blue).
+
+Conditional styling has been applied to distinguish the two types of vertices and the edge connecting them.
 
 === Map
 
-Map widgets support highlighting vertices based on their attribute values.
+Map widgets support highlighting vertices and edges based on their attribute values.
+You can use condition style to change the size and color of map vertices and edges
 
-image::map-conditional-styling.png[]
+image::Screen Shot 2024-03-07 at 1.53.42 PM.png[]
 
-In this example, all Address vertices below a certain latitude are highlighted.
+
+In this example, all city and travel event vertices are highlighted and connected by the edge.
+
+=== `always` Option
+
+An `always` option in the condition dropdown.
+
+image::Screen Shot 2024-03-07 at 1.59.12 PM.png[]
+
+Once you select always, this style rule will apply to the entire widget.
+
 
