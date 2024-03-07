@@ -50,6 +50,10 @@ Supports any input data format.
 Displays the first attribute of the first vertex or edge in a query result.
 Ideal for displaying total counts or other summary values from a query.
 
+=== xref:insights:widgets:markdown-widget.adoc[]
+
+Empowering users to incorporate formatted text, links, images, and diverse content to enrich the dashboard experience.
+
 === xref:line-chart.adoc[]
 
 Displays a standard line chart.
