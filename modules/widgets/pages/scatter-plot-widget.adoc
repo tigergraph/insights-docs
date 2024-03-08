@@ -1,0 +1,3 @@
+= Scatter Plot Widget
+
+The scatter chart will provide a visual representation of the relationship between two numerical variables, allowing users to identify patterns or correlations in the data.

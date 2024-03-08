@@ -74,6 +74,11 @@ Accepts data as vertices and edges or a list of objects that contain at least on
 Displays a Sankey chart, ideal for displaying flow from one set of values to another.
 Accepts data as vertices and edges.
 
+=== xref:insights:widgets:scatter-plot-widget.adoc[]
+
+Provides a visual representation of the relationship between two numerical variables, allowing users to identify patterns or correlations in the data.
+
+
 === xref:inputs.adoc[]
 
 An interactive widget that takes user input and stores it as a variable that can then be used in queries in other widgets.
