@@ -8,7 +8,7 @@
 ** xref:bar-chart.adoc[Bar Chart]
 ** xref:pie-chart.adoc[Pie Chart]
 ** xref:sankey.adoc[Sankey]
-** xref:scatter-plot-widget.adoc[Scatter Plot]
+** xref:scatter-plot-widget.adoc[Scatter Chart]
 ** xref:inputs.adoc[Inputs]
 * xref:actions.adoc[]
 * xref:conditional-styling.adoc[]
