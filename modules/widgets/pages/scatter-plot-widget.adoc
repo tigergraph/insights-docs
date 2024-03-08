@@ -14,29 +14,29 @@ As a user of TigerGraph Insights, You can have a Scatter Chart widget available 
 == Create a Scatter Chart Widget
 
 . Click btn:[Scatter Chart] Widget.
-+
+
 image::Screen Shot 2024-03-08 at 11.55.27 AM.png[]
-+
+
 . Run the pattern.
-+
+
 image::Screen Shot 2024-03-08 at 11.56.17 AM.png[]
-+
+
 . Select X/Y-axis `Data` to show in chart.
-+
+
 image::Screen Shot 2024-03-08 at 11.57.01 AM.png[]
-+
+
 . Adjust X/Y-axis style in the `Display`
-+
+
 image::Screen Shot 2024-03-08 at 11.57.27 AM.png[]
-+
+
 . Open show options.
-+
+
 image::Screen Shot 2024-03-08 at 11.57.52 AM.png[]
-+
+
 . Add xref:insights:widgets:conditional-styling.adoc[Conditional Styling].
-+
+
 image::Screen Shot 2024-03-08 at 11.58.40 AM.png[]
-+
+
 . Add some xref:insights:widgets:actions.adoc[action] to the chart.
-+
+
 image:Screen Shot 2024-03-08 at 11.59.06 AM.png[]
