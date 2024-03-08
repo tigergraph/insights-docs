@@ -1,3 +1,42 @@
-= Scatter Plot Widget
+= Scatter Chart Widget
+:experimental:
 
-The scatter chart will provide a visual representation of the relationship between two numerical variables, allowing users to identify patterns or correlations in the data.
+The Scatter Chart will provide a visual representation of the relationship between two numerical variables, allowing users to identify patterns or correlations in the data.
+
+== Introduction
+As a user of TigerGraph Insights, You can have a Scatter Chart widget available in the dashboard.
+
+* Users are able to select the X-axis and Y-axis variables from the available data fields.
+* It supports tooltips to display additional information when hovering over data points.
+* It can be interactive, allowing users to zoom in/out and pan across the chart.
+* It can have customizable styling options, such as colors and marker shapes.
+
+== Create a Scatter Chart Widget
+
+. Click btn:[Scatter Chart] Widget.
++
+image::Screen Shot 2024-03-08 at 11.55.27 AM.png[]
++
+. Run the pattern.
++
+image::Screen Shot 2024-03-08 at 11.56.17 AM.png[]
++
+. Select X/Y-axis `Data` to show in chart.
++
+image::Screen Shot 2024-03-08 at 11.57.01 AM.png[]
++
+. Adjust X/Y-axis style in the `Display`
++
+image::Screen Shot 2024-03-08 at 11.57.27 AM.png[]
++
+. Open show options.
++
+image::Screen Shot 2024-03-08 at 11.57.52 AM.png[]
++
+. Add xref:insights:widgets:conditional-styling.adoc[Conditional Styling].
++
+image::Screen Shot 2024-03-08 at 11.58.40 AM.png[]
++
+. Add some xref:insights:widgets:actions.adoc[action] to the chart.
++
+image:Screen Shot 2024-03-08 at 11.59.06 AM.png[]
