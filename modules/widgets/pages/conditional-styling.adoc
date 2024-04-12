@@ -19,6 +19,10 @@ The min point and max point is prefilled based on your data, but can be changed.
 
 * Unique condition: The system picks a color based on the uniqueness of the value.
 
+[NOTE]
+====
+Other primitive data types `boolean` and `date` and more complex data types like `array` and `map` are not yet supported by conditional styling.
+====
 
 == Widgets
 
