@@ -1,4 +1,4 @@
-= Release Notes
+= Insights Release Notes
 
 == 3.9
 
