@@ -1,5 +1,7 @@
 = Insights Release Notes
 
+// = 4.1
+
 == 3.10
 
 * xref:insights:widgets:single-value.adoc[Changing Single Value Widget to Value Widget]  - Modified the value element of insights to support the mapping of multiple values.
