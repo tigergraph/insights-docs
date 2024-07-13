@@ -14,7 +14,6 @@ image:getstarted-homecard.png[alt=getstarted,width=74,height=74]
 
 A xref:insights:intro:get-started.adoc[Get Started] guide to help you get up and running.
 
-
 ¦
 image:tg_suites-homecard.png[alt=apps,width=74,height=74]
 *Applications*
@@ -45,7 +44,6 @@ image:documentation-homecard.png[alt=documenation,width=74,height=74]
 
 See xref:insights:release-notes:index.adoc[Release Notes] for the most up-to-date news on TigerGraph Insights.
 
-¦
 |===
 
 
