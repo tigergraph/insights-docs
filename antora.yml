@@ -1,6 +1,6 @@
 name: insights
 title: Insights
-version: 3.11
+version: "3.11"
 display_version: "3.11 Preview"
 start_page: intro:index.adoc
 
