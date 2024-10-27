@@ -10,5 +10,6 @@
 ** xref:sankey.adoc[Sankey]
 ** xref:scatter-plot-widget.adoc[Scatter Chart]
 ** xref:inputs.adoc[Inputs]
+* xref:patternsearch.adoc[Pattern Search]
 * xref:actions.adoc[]
 * xref:conditional-styling.adoc[]

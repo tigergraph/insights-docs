@@ -55,15 +55,15 @@ Users can also use Markdown to add HTML.
 .Adding HTML
 image::markdown5.png[]
 
-=== Dynamic Markdown Content
+=== Dynamic Content
 
-Markdown content can incorporate variables stored in an Inputs Widget.
+Markdown content can incorporate variables stored in the current page. For creating a variable, please refer to the xref:inputs.adoc[Inputs Widget].
 
-Hover over the `var` menu item in the toolbar of the Markdown widget to display the currently available variables.
+* Hover over the `var` menu item in the toolbar of the Markdown widget to display the currently available variables.
 
 image::markdown-toolbar.png[]
 
-Type $(variables.<variablename>) in the Markdown content field on the left, and you will see the evaluated result on the right.
+* Type `$(variables.<variablename>)` in the Markdown content field on the left, and you will see the evaluated result on the right.
 
 image::markdown-variable.png[]
 
