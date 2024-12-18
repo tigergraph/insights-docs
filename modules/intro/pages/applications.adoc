@@ -142,7 +142,7 @@ image::widgetAccessToken.png[]
 ==== Share the Token/URL
 
 You can now share this URL with others and they do not need a login to view the widget or application.
-They can view the widget or application by coping and pasting the URL into a browser.
+They can view the widget or application by copying and pasting the URL into a browser.
 
 Additionally, the URL can be embedded on a page as an `<iframe src="Token/URL" >` on a website.
 
