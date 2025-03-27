@@ -1,8 +1,8 @@
 = List and Map Support
 
-The LIST and MAP query parameter types are now supported in Insights.
+As of version 4.2, the LIST and MAP query parameter types are supported in Insights.
 
-. First create a GSQL query with list or map parameters in graph studio or gsql shell.
+. First create a GSQL query with list or map parameters in GraphStudio or a GSQL shell.
 
 image::list-and-map-create.png[]
 
