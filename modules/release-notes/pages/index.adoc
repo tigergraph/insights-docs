@@ -1,4 +1,5 @@
-= Release Notes
+= Insights Release Notes
+:description: Release Notes for TigerGraph Insights
 
 == 3.9
 

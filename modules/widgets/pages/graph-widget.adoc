@@ -6,7 +6,7 @@ It allows you to display the relationships between vertices in a single widget b
 
 You can also run GSQL queries in this graph window.
 Please note that the queries are all run in interpreted mode,
-xref:gsql-ref:appendix:interpreted-gsql-limitations.adoc[in which not all GSQL query features are available.]
+xref:{page-component-version}@gsql-ref:appendix:interpreted-gsql-limitations.adoc[in which not all GSQL query features are available.]
 
 == Inputs
 
@@ -86,8 +86,8 @@ From there, you can write a GSQL query and view the results visualized in the Gr
 Try pasting in the generated GSQL query from your pattern view.
 You should see exactly the same results.
 
-Try following along with the queries in xref:gsql-ref:tutorials:gsql-101/index.adoc[] using the same small friendship graph.
-Remember that Insights only works with GSQL queries in xref:gsql-ref:appendix:interpreted-gsql-limitations.adoc[Interpreted mode.]
+Try following along with the queries in xref:{page-component-version}@gsql-ref:tutorials:gsql-101/index.adoc[] using the same small friendship graph.
+Remember that Insights only works with GSQL queries in xref:{page-component-version}@gsql-ref:appendix:interpreted-gsql-limitations.adoc[Interpreted mode.]
 
 == Pathfinding
 
