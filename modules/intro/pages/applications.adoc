@@ -56,7 +56,7 @@ If you want to share your widget with a user who does not have an Insights login
 You will need a separate database account to generate an access token for Insights.
 Ensure that you grant minimal privileges to this account.
 
-Please check the xref:{page-component-version}@tigergraph-server:reference:list-of-privileges-legacy.adoc[].
+Please check the xref:{page-component-version}@tigergraph-server:reference:list-of-privileges.adoc[].
 
 TigerGraph provides two modes for running queries:
 
