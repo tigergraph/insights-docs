@@ -159,6 +159,13 @@ Additionally, the URL can be embedded on a page as an `<iframe src="Token/URL" >
     </body>
 </html>
 
+== Print Application page
+
+* Navigate to the Application page configuration menu.
+
+* Click the Print button.
+
+image::print-application.png[]
 
 == Backup and restore
 
