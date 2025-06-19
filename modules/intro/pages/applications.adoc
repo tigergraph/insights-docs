@@ -19,7 +19,7 @@ All of these options can be changed later as well.
 image::new-application.png[]
 
 If you don't see any graphs in the dropdown list, either there are no graphs on your instance or you do not have permissions to view any graphs.
-Try creating a new graph using xref:gui:graphstudio:overview.adoc[GraphStudio] first, or contact an administrator to grant you the correct permissions.
+Try creating a new graph using xref:{page-component-version}@gui:graphstudio:overview.adoc[GraphStudio] first, or contact an administrator to grant you the correct permissions.
 
 Your new application will appear on the Insights main page under My Applications. If other users on the same TigerGraph instance have created their own applications, they will be listed under "Other Applications."
 
@@ -56,7 +56,7 @@ If you want to share your widget with a user who does not have an Insights login
 You will need a separate database account to generate an access token for Insights.
 Ensure that you grant minimal privileges to this account.
 
-Please check the xref:tigergraph-server:reference:list-of-privileges.adoc[].
+Please check the xref:{page-component-version}@tigergraph-server:reference:list-of-privileges-legacy.adoc[].
 
 TigerGraph provides two modes for running queries:
 
@@ -71,7 +71,7 @@ If you want users to be able to create and run their own queries, then likely th
 It is not needed to run an installed query.
 
 `READ_DATA` privilege is required for any type of query, and you can grant it at various levels.
-(Details are provided in xref:gui:admin-portal:management/user-management.adoc[local privileges])
+(Details are provided in xref:{page-component-version}@gui:admin-portal:management/user-management.adoc[local privileges])
 
 `READ_SCHEMA` and `READ_QUERY` are also needed for any type of query.
 
@@ -159,6 +159,13 @@ Additionally, the URL can be embedded on a page as an `<iframe src="Token/URL" >
     </body>
 </html>
 
+== Print Application page
+
+* Navigate to the Application page configuration menu.
+
+* Click the Print button.
+
+image::print-application.png[]
 
 == Backup and restore
 

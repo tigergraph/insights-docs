@@ -2,16 +2,17 @@
 
 == 4.2
 * xref:4.2@insights:widgets:list-and-map.adoc[Support LIST and MAP query parameter types] - This allow users to create widgets in Insights that use GSQL queries with list or map parameters.
+* xref:4.2@insights:intro:applications.adoc#_print_application_page[Application page printing] - Users can now generate a printed version of the application page.
 * xref:4.2@insights:widgets:global-variables.adoc[Add support for global variables] - This allows users to create global variables that can be used across multiple widgets in the same application.
 
 // = 4.1
 
 == 3.10
 
-* xref:insights:widgets:single-value.adoc[Changing Single Value Widget to Value Widget]  - Modified the value element of insights to support the mapping of multiple values.
-* xref:insights:widgets:markdown-widget.adoc[Added Markdown Widget] - This addition allows users to add formatted text, links, images, and other rich content to the dashboards.
-* xref:insights:widgets:conditional-styling.adoc[Conditional Styling Widget Update] - Conditional styling can now be applied to edges, with the addition of an `always` xref:insights:widgets:conditional-styling.adoc#_always_option[option] in the condition dropdown.
-* xref:insights:widgets:scatter-plot-widget.adoc[Added Scatter Chart Widget] - The scatter chart will provide a visual representation of the relationship between two numerical variables, allowing users to identify patterns or correlations in the data.
+* xref:3.10@insights:widgets:single-value.adoc[Changing Single Value Widget to Value Widget]  - Modified the value element of insights to support the mapping of multiple values.
+* xref:3.10@insights:widgets:markdown-widget.adoc[Added Markdown Widget] - This addition allows users to add formatted text, links, images, and other rich content to the dashboards.
+* xref:3.10@insights:widgets:conditional-styling.adoc[Conditional Styling Widget Update] - Conditional styling can now be applied to edges, with the addition of an `always` xref:3.10@insights:widgets:conditional-styling.adoc#_always_option[option] in the condition dropdown.
+* xref:3.10@insights:widgets:scatter-plot-widget.adoc[Added Scatter Chart Widget] - The scatter chart will provide a visual representation of the relationship between two numerical variables, allowing users to identify patterns or correlations in the data.
 
 == 3.9
 
