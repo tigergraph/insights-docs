@@ -2,6 +2,7 @@
 
 == 4.2
 * xref:4.2@insights:widgets:list-and-map.adoc[Support LIST and MAP query parameter types] - This allow users to create widgets in Insights that use GSQL queries with list or map parameters.
+* xref:4.2@insights:widgets:global-variables.adoc[Add support for global variables] - This allows users to create global variables that can be used across multiple widgets in the same application.
 
 // = 4.1
 
