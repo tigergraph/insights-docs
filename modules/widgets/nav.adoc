@@ -1,5 +1,6 @@
 * xref:index.adoc[Widgets]
 ** xref:graph-widget.adoc[Graph]
+** xref:global-variables.adoc[Global Variables]
 ** xref:map-widget.adoc[Map]
 ** xref:table-widget.adoc[Table]
 ** xref:single-value.adoc[Value]
