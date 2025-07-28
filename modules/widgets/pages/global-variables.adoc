@@ -1,0 +1,50 @@
+= Global Variables
+
+Global variables can be used for sharing data across multiple pages within the same application.
+
+The `Global Variables` tab management window can be found in the general settings of the application to define shared data.
+
+image::global-variables-main.png[]
+
+== Upsert Global Variable
+
+=== Configuration
+
+image::global-variables-upsert.png[]
+
+=== Variable Name
+
+The name by which other widgets can refer to this variable. This is analogous to a variable name in a programming language.
+
+=== Data Type
+
+A global variable has one of the following data types:
+
+* *Input*: Choose between various data types:
+** Number: any `FLOAT` or `INT` data type
+** String: any text string
+** Datetime: a string formatted as a date
+** Vertex: a vertex type and ID that can be passed into a GSQL query.
+** Bool: `True` or `False`
+** Map: a set of (key, value) pairs where the key type and value type are each one of {number, string, datetime, bool}.
+** List: an ordered sequence where the element type is one of {number, string, datetime, bool, vertex}.
+
+
+=== Default Value
+
+The value of the global variable if not assigned by a user. Without a default value, the variable defined by the input is undefined.
+
+
+== Use in Application
+
+=== Define Setter for Global Variables
+
+The value of the Global Variable can be changed through an input widget. Create a new input and bind it to the corresponding Global Variable.
+
+image::global-variables-input.png[]
+
+=== Binding
+
+A Global Variable can be bound to the corresponding type of query parameter for all kinds widgets that can execute a query.
+
+image::global-variables-query.png[]
