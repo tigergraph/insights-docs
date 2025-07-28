@@ -5,7 +5,7 @@
 ** xref:single-value.adoc[Value]
 ** xref:markdown-widget.adoc[Markdown]
 ** xref:line-chart.adoc[Line Chart]
-** xref:list-and-map.adoc[List and Map Support]
+** xref:list-and-map.adoc[List and Map]
 ** xref:bar-chart.adoc[Bar Chart]
 ** xref:pie-chart.adoc[Pie Chart]
 ** xref:sankey.adoc[Sankey]
