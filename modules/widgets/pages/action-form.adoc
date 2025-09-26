@@ -1,0 +1,23 @@
+= Action Form
+
+Action Form differs from ordinary idempotent input binding that triggers query logic; Action Form is more suitable for executing queries with side effects, where the relevant parameters for executing the query come from the associated bound inputs. It can be used to create, update, or delete records in a database, or to perform any other action that requires user input.
+
+If you want to create an action form, you can find it in the Advanced section of the input widget configuration in Insights. There are three types of Submit Type, as shown below.
+
+* `No submit` This is the default behavior for all input widgets that do not have an action form set; there will be no submit action.
+* `Submit to query` This will trigger the execution of a query with side effects, such as creating, updating, or deleting records in a database. The relevant parameters for executing the query will come from the associated bound inputs.
+* `Submit to page` This will navigate to another page in the application, passing along any relevant parameters from the associated bound inputs.
+
+image::action-form-settings.png[]
+
+== Submit to query
+
+If you select the 'Submit to query' type, there are three related parameters that need to be filled out here. Additionally, if the related query has parameters, you need to bind the parameter values to the inputs.
+
+image::action-form-submit-to-query.png[]
+
+== Submit to page
+
+If you select the 'Submit to page' type, you need to choose the page to which you want to redirect. Additionally, if the related page has parameters, you need to bind the parameters of the redirect page to the inputs on this page.
+
+image::action-form-submit-to-page.png[]
