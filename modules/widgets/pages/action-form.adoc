@@ -14,10 +14,24 @@ image::action-form-settings.png[]
 
 If you select the 'Submit to query' type, there are three related parameters that need to be filled out here. Additionally, if the related query has parameters, you need to bind the parameter values to the inputs.
 
-image::action-form-submit-to-query.png[]
+image::action-form-param-bindings.png[]
+
+It is important to note that there is a type matching validation between query parameters and inputs. If the parameter types do not match, the input cannot be selected.
+
+image::action-form-select-options.png[]
+
+Here are the relevant types of matches:
+
+* `String`, `Datetime`, `Bool` These three types will match whether they are of the same type.
+* `Uint`, `Int`, `Int64`, `Int8`, `Double`, `Float`, `Real`, `Number` These numeric types will match with each other.
+* `Vertex` This type will match with `Vertex type`.
+* `List` and `Set` are compatible, and they will also check if the Element Type matches.
+* `Map` This type will match with `Key type` and `Value type`.
 
 == Submit to page
 
 If you select the 'Submit to page' type, you need to choose the page to which you want to redirect. Additionally, if the related page has parameters, you need to bind the parameters of the redirect page to the inputs on this page.
 
 image::action-form-submit-to-page.png[]
+
+Similarly, `Submit to page` will also check if the types of the redirect page parameters match, just like `Submit to query` mentioned above.
