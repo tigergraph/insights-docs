@@ -4,6 +4,7 @@
 * xref:4.2@insights:widgets:list-and-map.adoc[Support LIST and MAP query parameter types] - This allow users to create widgets in Insights that use GSQL queries with list or map parameters.
 * xref:4.2@insights:intro:applications.adoc#_print_application_page[Application page printing] - Users can now generate a printed version of the application page.
 * [4.2.1] xref:4.2@insights:widgets:global-variables.adoc[Add support for global variables] - This allows users to create global variables that can be used across multiple widgets in the same application.
+* [4.2.2] xref:4.2@insights:widgets:action-form.adoc[Input Widget Improvements] - Add a submit button to the input widget, enabling users to explicitly apply changes and trigger parameterized queries. This allows one-time create, update, or delete actions, making environments more dynamic for both business workflows and demo scenarios.
 
 
 // = 4.1
