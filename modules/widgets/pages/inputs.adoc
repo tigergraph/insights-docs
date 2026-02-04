@@ -66,6 +66,8 @@ Widget names can incorporate variables stored in an Inputs Widget.
 Underneath the btn:[Widget name] section in any widget, open the btn:[Advanced] menu.
 If any variables exist, they will appear in that menu.
 
+image::advanced.png[]
+
 Type `$(variables.<variablename>)` in the btn:[Widget Name] field and check the preview of how it appears in the btn:[Evaluated Widget Name] section.
 
 image::dynamic-widget-name.png[]
