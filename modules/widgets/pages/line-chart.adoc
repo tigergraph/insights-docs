@@ -11,18 +11,24 @@ For a GSQL query result, accepts a list of objects that contain at least one num
 
 == Widget window
 
-image:line-chart-interface.png[]
+image:line-chart.png[]
 
 === Sorting and grouping
 
-Customize the category (the name of each bar) and one or more numeric values to display in each category.
+Customize the *Category (X-Axis)* and *Value (Y-Axis)* to set the horizontal and vertical axis data.
 
 Sort the data by the category name (alphabetical left to right) or value (increasing left to right).
 
 Group data to combine vertices with the same category name.
+Choose *Stacked* to layer the lines cumulatively, or *Overlay* to draw them independently on the same axes.
 
 Aggregate data with `COUNT`, `AVG`, `SUM`, `MAX`, and `MIN` functions.
 
 === Display options
 
 You have several options to control the design of the X and Y axis labels of the graph, as well as turn on and off a key that explains each color present.
+
+* Toggle *Show X-Axis Label* and *Show Y-Axis Label* to show or hide axis labels.
+* Use *X-Axis Label Rotation* to adjust the angle of X-axis labels.
+* Toggle *Show Label* to show or hide data point values on the chart.
+* Use *Direction* to flip the chart orientation.
