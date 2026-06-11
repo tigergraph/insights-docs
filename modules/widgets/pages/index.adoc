@@ -92,7 +92,7 @@ To save a widget separately from an application or page, click the Save button.
 
 Each widget has a **General** settings panel with the following common options.
 
-image::general-settings.png
+image::general-settings.png[]
 
 === Widget Name
 
