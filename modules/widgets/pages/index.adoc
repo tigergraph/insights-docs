@@ -87,3 +87,38 @@ Supports any input data format.
 == Save a widget
 
 To save a widget separately from an application or page, click the Save button.
+
+== Widget Settings
+
+Each widget has a **General** settings panel with the following common options.
+
+image::widget-settings-general.png
+
+=== Widget Name
+
+Use this field to set a custom display title for the widget.
+You can also use the template syntax `${variables.variable_name}` to display a global variable value as the widget name.
+This option is available for all widget types.
+
+=== Advanced
+
+Enable this toggle to access additional configuration options for chart-type widgets. When enabled, you can configure **Query Timeout**, **Memory Limit**, and **Actions**. 
+
+For xref:bar-chart.adoc[Bar Chart] and xref:line-chart.adoc[Line Chart] widgets, **Lower Bound Variable Name** and **Upper Bound Variable Name** are also available.
+
+=== Hide Widget Name
+
+Enable this toggle to hide the widget's title bar, which helps create cleaner layouts and reduces redundancy when titles are unnecessary.
+This option is available for all widget types.
+
+=== Auto Refresh Interval
+
+Use this dropdown to set how frequently the widget automatically refreshes its data.
+This option is available for all widget types except Inputs.
+
+* No auto refresh (default)
+* 30 seconds
+* 60 seconds
+* 5 minutes
+* 15 minutes
+
