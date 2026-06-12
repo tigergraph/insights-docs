@@ -16,7 +16,7 @@ Each edge should have at least one attribute of type `FLOAT` or `INT` so that th
 
 == Widget window
 
-image::sankey-interface.png[]
+image::sankey-chart.png[]
 
 In the Data section of the right side panel, you can choose which numeric edge property to use as the displayed edge strength.
 
