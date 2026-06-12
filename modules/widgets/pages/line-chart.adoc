@@ -19,10 +19,10 @@ Customize the *Category (X-Axis)* and *Value (Y-Axis)* to set the horizontal and
 
 Sort the data by the category name (alphabetical left to right) or value (increasing left to right).
 
-Group data to combine vertices with the same category name.
+Use *Grouping* to select a column and create multiple lines based on the values in that column.
 Choose *Stacked* to layer the lines cumulatively, or *Overlay* to draw them independently on the same axes.
 
-Aggregate data with `COUNT`, `AVG`, `SUM`, `MAX`, and `MIN` functions.
+Use *Value Aggregation* to aggregate values using `COUNT`, `AVG`, `SUM`, `MAX`, or `MIN`.
 
 === Display options
 
@@ -32,3 +32,4 @@ You have several options to control the design of the X and Y axis labels of the
 * Use *X-Axis Label Rotation* to adjust the angle of X-axis labels.
 * Toggle *Show Label* to show or hide data point values on the chart.
 * Use *Direction* to flip the chart orientation.
+* Toggle *Show Legend* to show or hide the chart legend.
