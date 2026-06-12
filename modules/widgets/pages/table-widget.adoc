@@ -5,7 +5,7 @@ The Table widget displays vertices in the format of a relational table, similar 
 
 == Table Settings
 
-image::table-interface.png[]
+image::table-chart.png[]
 
 Table widgets do not support visual customization in the same way as other widgets.
 However, they do support xref:conditional-styling.adoc[].
