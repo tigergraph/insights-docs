@@ -17,11 +17,10 @@ Customize the *Category (X-Axis)* and *Value (Y-Axis)* to set the horizontal axi
 
 Sort the data by the category name (alphabetical left to right) or value (increasing left to right).
 
-By default, grouping is done by combining adjacent bars into a summary bar.
-You can also adjust it to stack the bars in different colors.
+Use *Grouping* to select a column and create grouped or stacked bars based on the values in that column.
 Choose *Grouped* to display bars side by side, or *Stacked* to layer them cumulatively.
 
-Aggregate data with `COUNT`, `AVG`, `SUM`, `MAX`, and `MIN` functions.
+Use *Value Aggregation* to aggregate values using `COUNT`, `AVG`, `SUM`, `MAX`, or `MIN`.
 
 === Display options
 
@@ -32,3 +31,4 @@ You have several options to control the design of the X and Y axis labels of the
 * Toggle *Show Label* to show or hide bar values on the chart.
 * Use *Direction* to switch the bar orientation.
 * Configure *Default Sorting* to set the default sort order.
+* Toggle *Show Legend* to show or hide the chart legend.
