@@ -25,4 +25,4 @@ Values must be numeric.
 Toggle *Rose Chart* to display the pie chart as a Nightingale chart (polar rose diagram).
 
 You can also toggle *Show Legend* and *Show Label* to show or hide the color key and slice labels.
-Only two things changed from the original:
+
