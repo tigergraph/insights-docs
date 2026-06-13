@@ -14,7 +14,7 @@ Accepts data as vertices and edges.
 
 == Widget window
 
-image::graph-window-controls.png[]
+image::graph-1.png[]
 
 === View details
 
@@ -32,12 +32,12 @@ The bottom left icon brings up a filter menu that allows you to filter the displ
 
 In this example, we create a filter to only show edges with amounts between -500 and 500.
 
-image::filter-example-amount-500.png[]
+image::graph-2.png[]
 
 After the filter is applied, edges that have transfer amounts over 500 are reduced in visibility.
 No data is removed from the graph.
 
-image::sample-graph-after-filter.png[]
+image::graph-3.png[]
 
 === Change graph view
 
