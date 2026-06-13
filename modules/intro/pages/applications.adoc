@@ -16,7 +16,7 @@ image::new-application-button.png[]
 In the next window, choose a name, icon, and default graph to pull data from.
 All of these options can be changed later as well.
 
-image::new-application.png[]
+image::new-application_icons.png[]
 
 If you don't see any graphs in the dropdown list, either there are no graphs on your instance or you do not have permissions to view any graphs.
 Try creating a new graph using xref:{page-component-version}@gui:graphstudio:overview.adoc[GraphStudio] first, or contact an administrator to grant you the correct permissions.
@@ -101,11 +101,11 @@ The access token gets generated as part of a URL, which then can be shared.
 
 * Go to menu:Application[ Settings ] in the three-dot menu of the specific application.
 
-image::Application2Setting.png[]
+image::application_setting.png[]
 
 * On the application page choose the gear icon for `Settings`.
 
-image::appliactionpage2security2.png[]
+image::application_gear.png[]
 
 * Go to the `Security` tab to create the access token.
 
@@ -119,7 +119,7 @@ We also provide a standalone application URL based on the access token.
 
 * Go back to `Application` page
 
-image::appliactionpage2security2.png[]
+image::application_gear.png[]
 
 * Click `Share`
 
@@ -127,7 +127,7 @@ image::applicationShare.png[]
 
 * And you can copy the URL token from here.
 
-image::apllicationSharepage.png[]
+image::share_new.png[]
 
 ==== Obtain a Widget sharing link
 
