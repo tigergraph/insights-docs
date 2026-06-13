@@ -9,14 +9,21 @@ There must be one attribute that can comprise the category labels and one attrib
 
 == Widget window
 
-image::pie-chart-interface.png[]
+image::pie-chart.png[]
 
 === Visual customization
 
-Use the Display section in the menu on the right side of the screen to set the inside and outside radius of the pie chart, the corner radius, and the border width.
+Use the *Display* section to configure the chart appearance:
 
-You can customize which attributes are mapped to the category and value sections of the pie slices.
+* Adjust *Radius* to control the size of the pie chart.
+* Adjust *Border Radius* to round slice corners.
+* Adjust *Border Width* to control slice borders.
+
+You can customize which attributes are mapped to the *Category* and *Value* sections of the pie slices.
 Values must be numeric.
 
-The pie chart can be adjusted to show as a Nightingale chart, also known as a polar rose diagram.
+Toggle *Rose Chart* to display the pie chart as a Nightingale chart (polar rose diagram).
+
+You can also toggle *Show Legend* and *Show Label* to show or hide the color key and slice labels.
+
 
