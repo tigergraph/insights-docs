@@ -133,11 +133,11 @@ image::share_new.png[]
 
 * On the application page. Go to the individual widget and click the three dots.
 
-image::WidgetShare.png[]
+image::individual_widget.png[]
 
 * Go to `Share` to obtain the sharing link for the specific widget.
 
-image::widgetAccessToken.png[]
+image::share_widgets.png[]
 
 ==== Share the Token/URL
 
