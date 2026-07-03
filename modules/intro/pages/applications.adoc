@@ -23,6 +23,42 @@ Try creating a new graph using xref:{page-component-version}@gui:graphstudio:ove
 
 Your new application will appear on the Insights main page under My Applications. If other users on the same TigerGraph instance have created their own applications, they will be listed under "Other Applications."
 
+=== Import an application
+
+You can import a previously exported application into TigerGraph Insights.
+
+On the *Applications* page, click *Import*.
+
+image::import-application-button.png[]
+
+You can also import an application from within an open application. Click the *...* menu in the upper-right corner, and then select *Import*.
+
+The Import feature accepts JSON (`.json`) files only.
+
+Importing an application includes the application's pages and widgets.
+
+[NOTE]
+====
+Importing an application from the *Applications* page creates a new application.
+
+Importing an application from within an existing application replaces the current application's content with the imported application.
+====
+
+[NOTE]
+====
+You must have Editor or Owner permissions to import an application.
+====
+
+==== Best practices
+
+* Export an application before importing a modified version so that you have a backup.
+* Import only JSON files that were exported from TigerGraph Insights.
+* Verify the imported application after the import completes.
+
+==== Version compatibility
+
+Applications exported from earlier versions of TigerGraph Insights might not be compatible with all import methods. If you encounter validation errors when importing from the *Applications* page, import the application from within an existing application instead.
+
 === Preview an application
 
 Preview mode is designed to show off the use of your application in a presentation.
