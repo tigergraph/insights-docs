@@ -1,7 +1,7 @@
 name: insights
 title: Insights
 version: "4.3"
-display_version: "4.3.0-rc1"
+display_version: "4.3"
 start_page: intro:index.adoc
 
 nav:
